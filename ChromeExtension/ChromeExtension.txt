@@ -1,0 +1,18 @@
+1- Wintellect library usage for automation
+2- Dotnet Core dump analysis solution
+3- Performance analysis methods in Azure Platform
+
+
+
+
+Download the Image: Retrieve an image from the URL "6" and save it locally as "original.png."
+Resize the Image:
+Create a square version of the image by adding a transparent background.
+Resize another copy of the image to dimensions 1000x1000 pixels.
+Make a third copy of the image with dimensions 256x256 pixels and convert it to greyscale. create a python code for me
+
+
+GOOD: 
+How I used GitHub Copilot to build a browser extension
+https://github.blog/2023-05-12-how-i-used-github-copilot-to-build-a-browser-extension/
+

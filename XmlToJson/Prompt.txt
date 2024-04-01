@@ -1,0 +1,5 @@
+-
+seçili json datası ile uyumlu örnek veriler oluşturmak istiyorum. 
+bunu yapan bir csharp metodunu uygun isimle oluştur.
+
+-

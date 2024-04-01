@@ -1,0 +1,3 @@
+Csharp ile rabbitmq üzerinde işlemler yapmak istiyorum.
+Bunu yapabilmek için publisher ve subscriber olarak iki ayrı sınıf oluştur.
+Ayrıca RabbitMQ sunucusunun docker container olarak çalışmasını istiyorum.

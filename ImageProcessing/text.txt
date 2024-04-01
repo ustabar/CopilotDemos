@@ -1,0 +1,7 @@
+Download the Image: Retrieve an image from the URL "https://source.unsplash.com/random" 
+and save it locally as "original.png."
+Resize the Image:
+Create a square version of the image by adding a transparent background.
+Resize another copy of the image to dimensions 1000x1000 pixels.
+Make a third copy of the image with dimensions 256x256 pixels and convert it to greyscale. 
+create a python code for me

@@ -1,0 +1,27 @@
+hangi dilleri kullanarak tetris oyunu geliştirebilirim?
+
+javascript kullanarak bir tetris oyunu geliştirebilir misin?
+
+Blokların hareket etmesi, satırların temizlenmesi, oyunun bitirilmesi ve puanlama gibi özellikler ekle
+
+blokların döndürülmesi ve kullanıcı girişi ile kontrol ekle
+
+tetris oyununa blokların döndürülmesi ve kullanıcı girişi ile kontrol ekle
+
+bu oyuna blokların tahtanın dışına çıkmamasını sağlayacak ve diğer blokların üzerine ezmeyecek şekilde yerleştirilecek değişiklikleri de ekle
+
+bu kodu nasıl çalıştırabilirim
+
+uygulamayı browser da açtım ancak herhangi bir hareket oluşmadı.
+
+javascript html5 ve css kullanarak bu oyun için görsel bir arayüz oluştur
+
+javascript kodunu daha önceki tetris kodları ile birleştir
+
+bu kod blokların aşağı düşmesini içermiyor. her blok ekranda belirdiğinde belli bir hızda aşağı düşmeli. blok alt sınıra geldiğinde yeni blok tekrar yukarıdan düşecek şekilde belirmeli.
+
+bloklar düşerken, bir önceki konumu ekranda kalıyor.
+
+when i push space key falling blok should falled immediately. reconfigure the addeventlistener method using this info
+
+en alttaki sıra tamamlandığında ekrandan silerken her bir sildiğin satır için kullanıcıya 10 puan ver. Eğer kullanıcı puanı toplamda 100 ve katlarına ulaştıysa aşağı düşme hızını %10 düşürecek şekilde otomatik ayarla

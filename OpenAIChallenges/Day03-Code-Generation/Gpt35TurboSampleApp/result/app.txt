@@ -1,0 +1,19 @@
+namespace Function // Bu kod bloğunun içindeki sınıf ve fonksiyonların bulunduğu namespace'i belirtiyoruz.
+{
+    class Program // Program adında bir sınıf oluşturuyoruz.
+    {
+        // AbsoluteSquare adında bir fonksiyon tanımlıyoruz. Bu fonksiyon, iki tamsayı parametresi alacak ve bu parametrelerin farkının karesini döndürecek.
+        // Fonksiyonun erişim belirleyicisi private olduğu için sadece Program sınıfı içerisinden çağrılabilecek.
+        private int AbsoluteSquare(int num1, int num2)
+        {
+            // Math sınıfının Abs metodu ile num1 ve num2 arasındaki farkın mutlak değerini alıyoruz.
+            int result = Math.Abs(num1 - num2);
+            // Sonra bu farkın karesini alıyoruz.
+            result *= result;
+            // Son olarak, hesaplanan sonucu döndürüyoruz.
+            return result;
+        }
+    }
+} 
+
+// Bu yorum satırları sayesinde kodu daha iyi anlayabilir ve daha kolay okuyabilirsiniz.

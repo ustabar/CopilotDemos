@@ -1,0 +1,5 @@
+I would like to filter out !name2ee command output contains 
+none empty JITTED Code Address and previous 5 lines 
+using a python script. 
+I want to call the script within the windbg.
+Reconstruct the script as powershell.

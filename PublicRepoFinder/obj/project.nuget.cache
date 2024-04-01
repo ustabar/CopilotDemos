@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PkpJwYFw9HIbTlqaiaO7LyUFV7+rrECeyq7cT12Edg+kZF/ngwqNbgfsmqyu3YMlExBW5nXBdOiFEipAu9AnOw==",
+  "success": true,
+  "projectFilePath": "C:\\Codes\\CoPilotApp\\Problems\\PublicRepoFinder\\PublicRepoFinder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\barisu\\.nuget\\packages\\octokit\\10.0.0\\octokit.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,56 @@
+GitHub Copilot demo adımları
+
+- Github versiyon bilgisi
+	Individual
+	Business
+	Enterprise
+
+- Alyapı
+	GPT-4 kullanımı
+	OpenAI ile haberleşme
+	Context bilgisi 
+
+- Copilot özellikleri
+	Ghost text
+	Inline chat
+	Chat window
+	Terminal help
+	
+	Kod tamamlama
+	Kod gözden geçirme
+	Yorum satırları ekleme
+	Anlamlı değişkenler oluşturma
+	Kod formatlama
+	Kod genişletme için öneri
+	Yeni bir teknoloji öğrenirken yardım alma
+
+- Örnek demolar
+	C++ kodu ile ilgili formatlama ve kütüphane zenginleştirme
+		C:\Codes\CoPilotApp\Problems\CPlusPlus
+	Azure Arm template oluşturma
+		C:\Codes\CoPilotApp\Azure\Prompts.txt
+	Azure Devops pipeline için yardım alma
+		C:\Codes\CoPilotApp\DevOps\python-job-template.yml
+	Python öğrenme için learning path oluşturma
+		C:\Codes\CoPilotApp\Problems\AdvancedTutorial\prompts.txt
+	Chrome extension oluşturma
+		C:\Codes\CoPilotApp\Problems\ChromeExtension02
+	Windbg ile etkileşim & performans sorunu bulma
+		C:\Codes\CoPilotApp\Problems\Debugging
+		C:\Codes\CoPilotApp\Problems\windbg-filter
+	Bir imaj üzerinde oynama
+		C:\Codes\CoPilotApp\Problems\Debugging\test02.cs
+	Örnek veri oluşturma
+		C:\Codes\CoPilotApp\Problems\DataConstruction
+	Password & PII işlemleri
+		C:\Codes\CoPilotApp\Problems\Passwords\Prompts.txt
+	XML den Json a dönüştürme
+		C:\Codes\CoPilotApp\Problems\XmlToJson
+	SecurityEventLog analizi
+		C:\Codes\CoPilotApp\Problems\SecurityEventLog\temp.txt
+	RabbitMQ örneği
+		C:\Codes\CoPilotApp\Problems\RabbitOperations\Prompt.txt
+	Youtube video indirici
+		C:\Codes\CoPilotApp\Demos\Youtube
+	@workspace what version of net does this project use
+		C:\inetpub\wwwroot\BuggyBits\AllProducts.aspx

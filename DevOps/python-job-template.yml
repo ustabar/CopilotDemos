@@ -1,0 +1,23 @@
+parameters:
+  pythonVersion: '3.8'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: ${{ parameters.pythonVersion }}
+    addToPath: true
+
+- script: |
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+  displayName: 'Install dependencies'
+
+- script: |
+    python -m pytest --junitxml=junit/test-results.xml
+  displayName: 'Run tests'
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/test-results.xml'
+  condition: succeededOrFailed()

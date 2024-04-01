@@ -1,0 +1,25 @@
+{
+    "customer": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "accountNumber": "123456789",
+        "balance": 5000,
+        "transactions": [
+            {
+                "date": "2022-01-01",
+                "amount": -100,
+                "description": "ATM Withdrawal"
+            },
+            {
+                "date": "2022-01-02",
+                "amount": 2000,
+                "description": "Deposit"
+            },
+            {
+                "date": "2022-01-03",
+                "amount": -500,
+                "description": "Bill Payment"
+            }
+        ]
+    }
+}

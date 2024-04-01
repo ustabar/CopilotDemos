@@ -1,0 +1,28 @@
+- write the python code to print the first 100 fibonacci numbers. 
+  give me the actual code and not the output.
+
+- rewrite this as a web application that takes an input from the user and 
+  stored it in the variable n. n must be a number and the app will present 
+  the first n fibonacci numbers to the user. write all the code in a single python file.
+
+- create a python study plan
+
+- Great. Rewrite the entire study plan and update it with resources and links. 
+  Present the URLs in a plain format (e.g., 'https://example.com').
+
+- Make the study plan 4 weeks. I have 10 hours every week to study.
+
+- Act as a Berkley data science professor. 
+  I have experience with multiple programming languages and have worked with tech for 10 years. 
+  Rewrite the study plan to take this into account.
+
+- Create hands-on assignments for each week that teaches me to use the techniques. 
+  It should take around 5 hours to complete.
+
+- Create a consise list of questions and answers for a Python job interview, 
+  covering essential concepts and practical skills for a beginner. 
+  Include explanations and coding examples where applicable.
+
+
+
+1 2 3 4 5 6

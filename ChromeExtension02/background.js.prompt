@@ -1,0 +1,9 @@
+/*
+Service Worker for Google Chrome Extension 
+Handles when extension is installed
+Handles when message is received
+*/
+
+// console.log when extension is installed
+  
+// send response when message is received and console log the message is received

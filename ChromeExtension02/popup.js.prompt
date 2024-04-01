@@ -1,0 +1,13 @@
+/*
+    This program is a Chrome extension that copies the addresses in each tab into clipboard.
+    The extension is activated by clicking the extension icon in the browser.
+
+    Handle on button click:
+
+    - button with id "allTabs" that copies the addresses in each tab into clipboard.
+    - button with id "currentTab" that copies the addresses in the current tab into clipboard.
+
+    Create function that 
+    - creates an array of the addresses in each tab.
+    - copies the array into clipboard.
+*/

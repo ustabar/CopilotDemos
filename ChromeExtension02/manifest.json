@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Addresses",
+  "version": "1.0",
+  "permissions": [
+    "storage",
+    "tabs",
+    "browsingData"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

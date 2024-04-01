@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Generator</title>
+</head>
+<body>
+    <h1>Fibonacci Generator</h1>
+    <form method="post" action="/">
+        <label for="number">Enter a number:</label>
+        <input type="text" id="number" name="number" required>
+        <button type="submit">Generate Fibonacci Numbers</button>
+    </form>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+
+    {% if fibonacci_numbers %}
+        <h2>Fibonacci Numbers:</h2>
+        <ul>
+            {% for number in fibonacci_numbers %}
+                <li>{{ number }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>

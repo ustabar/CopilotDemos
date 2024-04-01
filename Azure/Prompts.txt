@@ -1,0 +1,5 @@
+// Q: Create me an ARM template that spins out an azure app service in #file:template.json 
+// Q: What does this template do?
+// Q: How can I deploy an ARM template to Azure?
+// Q: Can you create a parameterized version of this template?
+// Q: can you create a parameter file for this template?

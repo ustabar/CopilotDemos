@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PublicRepoFinder/1.0.0": {
+        "dependencies": {
+          "Octokit": "10.0.0"
+        },
+        "runtime": {
+          "PublicRepoFinder.dll": {}
+        }
+      },
+      "Octokit/10.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PublicRepoFinder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Octokit/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PHUXVZwE0C2wW9Slkfvw85YNr+uPvLKDgnmxVOzDds+jsv7TgTW9GiGNs4ENYKx1vHfZuH2/VmUlJ9W6GKfDSA==",
+      "path": "octokit/10.0.0",
+      "hashPath": "octokit.10.0.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<customer>
+    <firstName>John</firstName>
+    <lastName>Doe</lastName>
+    <accountNumber>123456789</accountNumber>
+    <balance>5000</balance>
+    <transactions>
+        <transaction>
+            <date>2022-01-01</date>
+            <amount>-100</amount>
+            <description>ATM Withdrawal</description>
+        </transaction>
+        <transaction>
+            <date>2022-01-02</date>
+            <amount>2000</amount>
+            <description>Deposit</description>
+        </transaction>
+        <transaction>
+            <date>2022-01-03</date>
+            <amount>-500</amount>
+            <description>Bill Payment</description>
+        </transaction>
+    </transactions>
+</customer>

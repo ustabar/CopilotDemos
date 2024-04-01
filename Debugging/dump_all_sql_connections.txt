@@ -1,0 +1,36 @@
+$$ First find the MT of System.Data.SqlClient.SqlInternalConnectionTds
+$$ 
+$$ !DumpHeap -type System.Data.SqlClient.SqlInternalConnectionTds -stat
+$$
+$$ $$><C:\DbgHelpers\dump_all_sql_connections.txt
+$$
+r @$t9=0
+.foreach(obj {!dumpheap -mt 00007ffba0f32678 -short}) {
+    r @$t9=@$t9+1
+    .printf /D "%i <link cmd=\"!do %p\">%p</link> ", @$t9, ${obj}, ${obj}
+    r @$t0 = poi(${obj}+98)
+    .printf /D "<link cmd=\"!do %p\">%p</link> ", @$t0, @$t0
+    r @$t0 = poi(@$t0+8)
+    .printf /D "<link cmd=\"!do %p\">%p</link> ", @$t0, @$t0
+    r @$t0 = poi(@$t0+28)
+    .printf /D "<link cmd=\"!do %p\">%p</link> ", @$t0, @$t0
+    r @$t1 = @$t0+10
+    r @$t2 = 0
+    .if (by(@$t1)==1)    {
+      .printf "BTC"
+      r @$t2 = 0x18
+    }
+    .if (by(@$t1)==3)    {
+      .printf "RPC"
+      r @$t2 = 0x40
+    }
+    .if (by(@$t1)==6)    {.printf "ATN"}
+    .if (by(@$t1)==7)    {.printf "BLK"}
+    .if (by(@$t1)==0n14) {.printf "XMR"}
+    
+    .if (@$t2!=0) {
+        r @$t1 = @$t0 + @$t2
+        .printf " %mu", @$t1
+    }
+    .printf "\n"
+}

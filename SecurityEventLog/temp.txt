@@ -1,0 +1,15 @@
+
+Baris Usta (External) Failure Information: 
+Failure Reason: Unknown user name or bad password. 
+Status: 0xC000006D 
+Sub Status: 0xC000006A
+
+***
+
+Invoke-WebRequest -Method POST -Uri http://localhost:5144/weatherforecast/subscribe -UseBasicParsing Invoke-WebRequest : 
+The remote server returned an error: (415) Unsupported Media Type. At line:1 char:1
+
+Invoke-WebRequest -Method POST -Uri http://localhost:5144/weatherfore ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CategoryInfo : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc eption
+FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand

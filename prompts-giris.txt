@@ -1,0 +1,109 @@
+SOHBET ÖRNEĞİ
+
+/help
+
+bana hangi konularda destek olabilirsin
+
+ben bir bilgisayar mühendisliği öğrencisiyim ve üniversite birinci sınıftayım. 
+yazılım ile ilgili kendimi geliştirmek istiyorum. 
+bana önereceğin en popüler yazılım teknolojisi nedir ve beni teknoloji konusunda eğitebilir misin?
+
+python öğrenenler için bir ajanda oluşturmak isteseydin nasıl birşey olurdu?
+
+Python öğrenirken pekiştirme yapmak için çeşitli proje fikirleri önerebilir misin?
+
+c# programlama dilinde kendimi geliştirmek istiyorum. öncelikle nereden başlamalıyım?
+
+-- bu maddeler üzerinden konuşacak olursak her madde için bana yardımcı olmanı ve örnekler üzerinden dili öğrenmemi hızlandırmanı istiyorum
+
+-- c# dilinde kullanılan kontrol mekanizmaları hakkında örneklerle açıklama yapar mısın?
+
+-- c# da kullanılan veri yapıları hakkında bilgi verebilir misin?
+
+-- c# dilinde generic kavramını açıklar mısın
+
+-- c# öğrenenler için bir ajanda oluşturmak isteseydin nasıl bir içerik olurdu?
+
+dotnet ile bir projeye başlarken hangi tip projeler oluşturabilirim 
+
+-- Yazılım mimarisinde en sık kullanılan prensipler nelerdir
+
+Yazılımda SOLID nedir
+
+LSP için bir dotnet örneği verebilir misin?
+
+
+
+PRODUCTIVITY
+
+-- performansı kötü bir sql stored procedure örneği oluştur
+-- stored procedure içinde transactional bir akış olsun
+-- verdiğin örneği best practice lere göre yeniden düzenle 
+-- ve excetion yönetimini de unutma
+
+-- mongo, cosmos, casandra ve influx db arasındaki farklar nelerdir?
+
+-- bu veritabanları için hangi senaryolarda hangisinin kullanılması daha uygun olur
+-- güçlü ve zayıf yanlarını da vurgulayarak açıkla
+
+-- What are the key differences between relational databases and NoSQL databases?
+
+*** 
+
+python dilinde geliştirdiğim uygulamayı azure devops pipeline ile üretime almak istiyorum.
+Bunu yaparken pylint ile kod kontrolü de yapmam gerek. 
+Yardım eder misin? ayrıca pylint kontrolü ne olursa olsun pipeline çalışmaya devam etmeli
+
+*** 
+
+I would like to filter out !name2ee command output contains none empty JITTED Code Address and previous 5 lines using a python script. 
+I want to call the script within the windbg
+	C:\DbgHelpers\Scripts
+
+***
+
+@workspace /explain seçili script ne iş yapıyor
+
+***
+
+bu script i referans alarak uygulamada fırlatılmış exception nesnelerinin analizini yapmak için yeni bir script oluşturacağım. bunun için seçili script te hangi yerleri düzenlemeliyim
+
+KODLAMA
+
+Tetris oyunu
+
+
+
+
+KODLAMA YARDIMI ÖRNEĞİ
+
+öğrenilen bilgileri geliştirmek için bir proje oluşturmak istiyorum. beni yönlendirebilir misin?
+
+seninle stok takip sistemi geliştirelim
+
+-- daha karmaşık bir sistem oluşturmak için önerdiklerini de projeye ekler misin
+
+-- bu metodlarda hata yönetimi için gerekli düzenlemeleri de yapabilir misin?
+
+önerdiğin çözüm üzerinde hata yönetimi için gerekli düzenlemeleri de yapabilir misin?
+
+hata yönetimi için exception fırlatmayı seçmişsin ancak bu performansı kötü etkileyen bir yöntem onun yerine başka ne tür bir pattern önerebilirsin
+
+-- OperationResult sonucunu nasıl kontrol etmem gerektiği ile ilgili bir örnek verebilir misin?
+
+verdiğin örnekleri kullanarak çalışan bir web uygulaması geliştirmek istiyorum.
+önyüz olarak blazor kullanmak istiyorum. backend tarafında dotnet core kullanabilirim
+
+-- önerdiğin adımlardan birinci adımı oluşturmak için yardım eder misin
+-- bu API tarafından sağlanan metodları çağırmak için blazor kodumda nasıl bir düzenleme yapmalıyım?
+-- backend için önerdiğin kodları toplu halde verebilir misin? 
+
+cs dosyalarını api projesinde nasıl tutmalıyım? folder yapısı hakkında bilgi verebilir misin?
+
+-- Inventory controller sınıfını kullanabilmek için program.cs dosyasını nasıl düzenlemeliyim?
+
+-- .net 6 sonrası bir versiyon kullanıyorum. program.cs örneğini buna göre düzenleyebilir misin?
+
+
+
+I would like to filter out !name2ee command output contains none empty JITTED Code Address and previous 5 lines using a python script. I want to call the script within the windbg.
