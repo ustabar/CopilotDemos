@@ -1,5 +1,4 @@
 python dilinde geliştirdiğim uygulamayı azure devops pipeline 
 ile üretime almak istiyorum.
 Bunu yaparken pylint ile kod kontrolü de yapmam gerek. 
-Yardım eder misin? 
-Ayrıca pylint kontrolü ne olursa olsun pipeline çalışmaya devam etmeli.
+Ayrıca pylint kontrolü ne olursa olsun pipeline çalışmaya devam etsin istiyorum.
