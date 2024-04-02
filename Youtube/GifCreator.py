@@ -8,10 +8,10 @@ def download_video(url):
 
 def convert_to_gif():
     clip = VideoFileClip("c:/analiz/gif/test.mp4")
-    clip = clip.subclip(0, 5)  # İlk 5 saniye
-    clip.write_gif("c:/analiz/gif/output.gif")
+    clip = clip.subclip(43, 51)  # aradan 8 saniye
+    clip.write_gif("c:/analiz/gif/output.gif", fps=20)
 
 # YouTube video URL'sini buraya girin
-url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+url = "https://www.youtube.com/watch?v=XxbJw8PrIkc"
 download_video(url)
 convert_to_gif()

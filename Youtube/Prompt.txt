@@ -6,4 +6,11 @@ python kodunu üret
 create a gif file from first 5 seconds of given youtube videos in python
 
 -
+bu kod verilen youtube adresindeki videodan gif üretiyor ancak ilk 8 saniyesi kullanılmış. 
+ben 43. saniyeden sonra 8 saniyelik kısmını gif e çevirmek istiyorum.
+
+-
+gif çok yavaş hareket ediyor.
+
+-
 is it possible to create iphone ring from an MP3 file in python

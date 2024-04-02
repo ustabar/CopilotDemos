@@ -3,7 +3,7 @@
 #pip install pytube
 from pytube import YouTube
 
-video_url = 'https://www.youtube.com/watch?v=HpoWFTJbUDk'
+video_url = 'https://www.youtube.com/watch?v=XxbJw8PrIkc'
 save_path = 'C:/Analiz'
 
 # Create a YouTube object

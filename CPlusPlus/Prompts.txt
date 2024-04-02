@@ -1,0 +1,6 @@
+- Generate a test code for the Calculator
+
+- How can i run this test code
+
+- Can you generate a load test code for the Calculator
+
