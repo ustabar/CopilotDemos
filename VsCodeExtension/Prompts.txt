@@ -1,0 +1,11 @@
+- VsCode için extension yazmak istiyorum.
+  Proje yapısını nasıl oluşturmalıyım?
+
+- Proje yapısı nasıl olmalı?
+
+- Yazacağım extension, editor de açık olan bir doyadaki bilgiyi 
+  github copilot chat ekranına aktaracak şekilde çalışsın istiyorum
+
+- Bu kodu extension olarak nereye koymalıyım?
+
+- Yazdığım vs code extension ı visual studio code marketplace de nasıl yayınlarım?
