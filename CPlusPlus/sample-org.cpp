@@ -1,66 +1,45 @@
 #include <iostream>
-#include <cmath> // cmath kütüphanesini NaN için kullanıyoruz
+#include <cmath> // Include cmath library for NaN
 
-/**
- * @brief The Calculator class provides basic arithmetic operations.
- */
-/**
- * @brief Hesap makinesi sınıfı.
- * 
- * Bu sınıf, matematiksel işlemleri gerçekleştirmek için kullanılır.
- * Toplama, çıkarma, çarpma ve bölme işlemlerini destekler.
- */
 class Calculator {
 public:
-    /**
-     * @brief İki sayıyı toplar.
-     * @param num1 İlk sayı.
-     * @param num2 İkinci sayı.
-     * @return İki sayının toplamı.
-     */
-    double add(double num1, double num2) {
-        double added_result = num1 + num2;
-        return added_result;
-    }
+double add(double num1, double num2) {
+return num1 + num2;
+}
 
-    /**
-     * @brief İki sayıyı çıkarır.
-     * @param num1 İlk sayı.
-     * @param num2 İkinci sayı.
-     * @return İki sayının farkı.
-     */
-    double subtract(double num1, double num2) {
-        double subtracted_result = num1 - num2;
-        return subtracted_result;
-    }
+double subtract(double num1, double num2) {
+return num1 - num2;
+}
 
-    /**
-     * @brief İki sayıyı çarpar.
-     * @param num1 İlk sayı.
-     * @param num2 İkinci sayı.
-     * @return İki sayının çarpımı.
-     */
-    double multiply(double num1, double num2) {
-        double multiplied_result = num1 * num2;
-        return multiplied_result;
-    }
+double multiply(double num1, double num2) {
+return num1 * num2;
+}
 
-    /**
-     * @brief İki sayıyı böler.
-     * @param num1 Bölünen.
-     * @param num2 Bölen.
-     * @return İki sayının bölümü.
-     * @note Eğer bölen sıfır ise, NaN döner ve bir hata mesajı yazdırır.
-     */
-    double divide(double num1, double num2) {
-        double divided_result = 0;
-        if (num2 != 0) {
-            divided_result = num1 / num2;
-            return divided_result;
-        } else {
-            std::cerr << "Hata! Sıfıra bölme yapılamaz.\n";
-            divided_result = std::numeric_limits<double>::quiet_NaN();
-            return divided_result;
-        }
-    }
+double divide(double num1, double num2) {
+if (num2 != 0) {
+return num1 / num2;
+}
+std::cerr << "Error! Division by zero is not allowed.";
+return std::numeric_limits<double>::quiet_NaN();
+}
+
+double squareRoot(double num) {
+if (num >= 0) {
+return std::sqrt(num);
+}
+std::cerr << "Error! Square root of a negative number is not defined.";
+return std::numeric_limits<double>::quiet_NaN();
+}
+
+double factorial(double num) {
+if (num >= 0) {
+double result = 1;
+for (int i = 1; i <= num; i++) {
+result *= i;
+}
+return result;
+}
+std::cerr << "Error! Factorial of a negative number cannot be calculated.";
+return std::numeric_limits<double>::quiet_NaN();
+}
 };

@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath> // Include cmath library for NaN
+#include <cmath>
 
 class Calculator {
 public:
@@ -19,7 +19,7 @@ public:
         if (num2 != 0) {
             return num1 / num2;
         }
-        std::cerr << "Error! Division by zero is not allowed.";
+        std::cerr << "Hata! Sıfıra bölme yapılamaz.";
         return std::numeric_limits<double>::quiet_NaN();
     }
 
@@ -27,7 +27,7 @@ public:
         if (num >= 0) {
             return std::sqrt(num);
         }
-        std::cerr << "Error! Square root of a negative number is not defined.";
+        std::cerr << "Hata! Negatif bir sayının karekökü tanımlı değildir.";
         return std::numeric_limits<double>::quiet_NaN();
     }
 
@@ -39,7 +39,7 @@ public:
             }
             return result;
         }
-        std::cerr << "Error! Factorial of a negative number cannot be calculated.";
+        std::cerr << "Hata! Negatif bir sayının faktöriyeli hesaplanamaz.";
         return std::numeric_limits<double>::quiet_NaN();
     }
 };

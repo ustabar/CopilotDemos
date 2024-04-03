@@ -1,3 +1,9 @@
+- Format the current code
+
+- Add comments in Turkish for each line
+
+- What do you suggest to extend the calculator class
+
 - Generate a test code for the Calculator
 
 - How can i run this test code
