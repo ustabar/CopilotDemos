@@ -1,0 +1,6 @@
+"Seçili satırlar ne anlama geliyor ve parametre değerleri alternatif ne olabilir?"
+
+"Deployment ı servis olarak loadbalancer üzerinden yayınlamak istiyorum nasıl bir değişiklik yapmalıyım?"
+
+Seçili satırlar ne anlama geliyor ve parametre değerlerinin alternatifi ne olabilir
+"Active selection: From the file: buggy-deploy-for-dump.yaml yaml - name: COMPlus_DbgEnableMiniDump value: "1" - name: COMPlus_DbgMiniDumpName value: /dumps/$(fName).dmp - name: COMPlus_DbgMiniDumpType value: "4" "

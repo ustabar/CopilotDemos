@@ -1,0 +1,62 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: buggy
+  labels:
+    app: buggycore
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      service: buggyservice
+  template:
+    metadata:
+      labels:
+        app: buggycore
+        service: buggyservice
+    spec:
+      containers:
+      - name: buggy
+        image: tatacr.azurecr.io/bug:0.0.1
+        imagePullPolicy: IfNotPresent
+        securityContext:
+          capabilities:
+            add: ["SYS_ADMIN", "SYS_PTRACE"]
+        ports:
+        - containerPort: 80
+          protocol: TCP
+        env:
+        - name: fName
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        - name: ASPNETCORE_URLS
+          value: "http://+:80"
+        - name: COMPlus_DbgEnableMiniDump
+          value: "1"
+        - name: COMPlus_DbgMiniDumpName
+          value: /dumps/$(fName).dmp
+        - name: COMPlus_DbgMiniDumpType
+          value: "4"
+        volumeMounts:
+        - name: azure
+          mountPath: /dumps
+      volumes:
+      - name: azure
+        persistentVolumeClaim:
+          claimName: azurefile
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: buggyservice
+  labels:
+    app: buggy
+    service: webapi
+spec:
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+  selector:
+    service: buggyservice
