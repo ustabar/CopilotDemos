@@ -1,3 +1,0 @@
-- generate a json data with name, age, gender, address and hobbies info
-- generate a csharp class using selected json data
-- get items which name starts with "D" using linq

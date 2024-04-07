@@ -47,12 +47,12 @@ document.getElementById('allTabs').addEventListener("click", function() {
 
 document.getElementById('copyBtn').addEventListener('click', function() {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-      var activeTab = tabs[0];
-      var url = activeTab.url;
-      var title = activeTab.title;
-      var copyText = 'URL: ' + url + '\nTitle: ' + title;
+      let activeTab = tabs[0];
+      let url = activeTab.url;
+      let title = activeTab.title;
+      let copyText = title + '\n' + url;
       navigator.clipboard.writeText(copyText).then(function() {
-        alert('Copied to clipboard');
+        alert(copyText + '\n\nCopied to clipboard');
       });
     });
   });

@@ -1,0 +1,28 @@
+	GITHUB CoPilot
+
+	Osman Karabaş  /    Technical Sales Lead
+	Barış Usta     /	Cloud Solution Architect
+	Microsoft 
+
+
+
+
+
+
+
+
+•	Kullanabileceğimiz özellikleri
+	o	Chat ekranı
+	o	Dil desteği
+	o	Kod tamamlama özelliğinden faydalanma
+	o	Kod açıklama ve düzenleme
+	o	Commit işleminde yorum desteği
+	o	@ ve / switchlerinin kullanımı
+
+•	Örnek projeler oluşturma
+	o	Örnek bir dil için (örn: Python) learning-path oluşturma
+	o	Örnek bir proje için test çözümü oluşturma
+	o	Load test için yardımcı script oluşturma
+	o	Hata ayıklama için CoPilot tan faydalanma
+	o	CI/CD çözümlerinde CoPilot kullanımı
+	o	Google Chrome için extension geliştirme    
