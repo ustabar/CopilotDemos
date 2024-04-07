@@ -1,56 +1,56 @@
-GitHub Copilot demo adımları
+GitHub Copilot demo steps
 
-- Github versiyon bilgisi
+- Github version info
 	Individual
 	Business
 	Enterprise
 
-- Alyapı
-	GPT-4 kullanımı
-	OpenAI ile haberleşme
-	Context bilgisi 
+- Infra
+	GPT-4 usage
+	Communicate with OpenAI services
+	Context details
 
-- Copilot özellikleri
+- Github Copilot features
 	Ghost text
 	Inline chat
 	Chat window
 	Terminal help
 	
-	Kod tamamlama
-	Kod gözden geçirme
-	Yorum satırları ekleme
-	Anlamlı değişkenler oluşturma
-	Kod formatlama
-	Kod genişletme için öneri
-	Yeni bir teknoloji öğrenirken yardım alma
+	Code completion
+	Code review
+	Comment line addition
+	Meaningful varibale name creation
+	Code formatting
+	Library extension suggestions
+	Learning path creation for a new subject
 
-- Örnek demolar
-	C++ kodu ile ilgili formatlama ve kütüphane zenginleştirme
+- Demo apps
+	C++ code formatting and library expantion
 		C:\Codes\CoPilotApp\Problems\CPlusPlus
-	Azure Arm template oluşturma
+	Azure Arm template creation
 		C:\Codes\CoPilotApp\Azure\Prompts.txt
-	Azure Devops pipeline için yardım alma
+	Help for Azure Devops pipeline creation
 		C:\Codes\CoPilotApp\DevOps\python-job-template.yml
-	Python öğrenme için learning path oluşturma
+	Learning path creation for Python langugage
 		C:\Codes\CoPilotApp\Problems\AdvancedTutorial\prompts.txt
-	Chrome extension oluşturma
+	Chrome extension creation
 		C:\Codes\CoPilotApp\Problems\ChromeExtension02
-	Windbg ile etkileşim & performans sorunu bulma
+	Interaction with Windbg & performance problem analysis
 		C:\Codes\CoPilotApp\Problems\Debugging
 		C:\Codes\CoPilotApp\Problems\windbg-filter
-	Bir imaj üzerinde oynama
+	Image creation and edition
 		C:\Codes\CoPilotApp\Problems\Debugging\test02.cs
-	Örnek veri oluşturma
+	Sample data creation
 		C:\Codes\CoPilotApp\Problems\DataConstruction
-	Password & PII işlemleri
+	Password & PII operations
 		C:\Codes\CoPilotApp\Problems\Passwords\Prompts.txt
-	XML den Json a dönüştürme
+	XML to Json convertion and vice versa
 		C:\Codes\CoPilotApp\Problems\XmlToJson
-	SecurityEventLog analizi
+	EventLog analysis (security evt)
 		C:\Codes\CoPilotApp\Problems\SecurityEventLog\temp.txt
-	RabbitMQ örneği
+	RabbitMQ Sample
 		C:\Codes\CoPilotApp\Problems\RabbitOperations\Prompt.txt
-	Youtube video indirici
+	Youtube video downloader
 		C:\Codes\CoPilotApp\Demos\Youtube
 	@workspace what version of net does this project use
 		C:\inetpub\wwwroot\BuggyBits\AllProducts.aspx
