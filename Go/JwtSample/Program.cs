@@ -21,7 +21,7 @@ Console.WriteLine("Press any key to continue >> 2 ...");
 Console.ReadKey();
 
 // Authenticate
-IAuthMethodInfo authMethod = new TokenAuthMethodInfo(vaultToken: "hvs.rL9m7w3JTVPnvzTYA6pnNfra");
+IAuthMethodInfo authMethod = new TokenAuthMethodInfo(vaultToken: "    ");
 
 VaultClientSettings vaultClientSettings = new VaultClientSettings("http://host.docker.internal:8200", authMethod);
 IVaultClient vaultClient = new VaultClient(vaultClientSettings);
