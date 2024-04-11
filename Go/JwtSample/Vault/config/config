@@ -1,0 +1,11 @@
+listener "tcp" {
+  address     = "0.0.0.0:8200"
+  tls_cert_file = "C:/Codes/CoPilotApp/Demos/Go/JwtSample/Vault/config/vault.crt"
+  tls_key_file  = "C:/Codes/CoPilotApp/Demos/Go/JwtSample/Vault/config/vault.key"
+}
+
+storage "file" {
+  path = "/vault/file"
+}
+
+disable_mlock = true

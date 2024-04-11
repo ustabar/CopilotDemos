@@ -1,0 +1,25 @@
+convert to c# as a whole class
+
+what do you suggest for strong secret key
+
+is it possible to use docker container for hashicorp vault
+
+how can i enable TLS for docker container
+
+'openssl' is not recognized as an internal or external command,
+operable program or batch file on windows
+
+where is shinning light productions web site
+    https://slproweb.com/products/Win32OpenSSL.html
+
+"c:\Program Files\Docker\Docker\DockerCli.exe" -SwitchWindowsEngine
+
+docker run --cap-add=IPC_LOCK -e 'VAULT_DEV_ROOT_TOKEN_ID=myroot' -e 'VAULT_DEV_LISTEN_ADDRESS=0.0.0.0:8200' hashicorp/vault
+
+docker run --cap-add=IPC_LOCK -e 'VAULT_DEV_ROOT_TOKEN_ID=myroot' -e 'VAULT_DEV_LISTEN_ADDRESS=0.0.0.0:8200' -p 8200:8200 -d --name=dev-vault hashicorp/vault
+
+docker run --cap-add=IPC_LOCK -e 'VAULT_DEV_ROOT_TOKEN_ID=myroot' -e 'VAULT_DEV_LISTEN_ADDRESS=0.0.0.0:8200' -p 8200:8200 -v C:/Codes/CoPilotApp/Demos/Go/JwtSample/Vault/config/:/vault/config -d --name=dev-vault vault server -config=C:/Codes/CoPilotApp/Demos/Go/JwtSample/Vault/config/config
+
+install vault cli on windows
+
+https://developer.hashicorp.com/vault/install

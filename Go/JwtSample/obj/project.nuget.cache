@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "80z1Z8+jBBnVvtz5Yp3QAbpJCIuCkeY864a3x5TEWJ4/mozaWcv/doa/0Rpc+v4ozPzE9TxFzMty9yJXyDxAFg==",
+  "success": true,
+  "projectFilePath": "C:\\Codes\\CoPilotApp\\Demos\\Go\\JwtSample\\JwtSample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\barisu\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.5.1\\microsoft.identitymodel.abstractions.7.5.1.nupkg.sha512",
+    "C:\\Users\\barisu\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.5.1\\microsoft.identitymodel.jsonwebtokens.7.5.1.nupkg.sha512",
+    "C:\\Users\\barisu\\.nuget\\packages\\microsoft.identitymodel.logging\\7.5.1\\microsoft.identitymodel.logging.7.5.1.nupkg.sha512",
+    "C:\\Users\\barisu\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.5.1\\microsoft.identitymodel.tokens.7.5.1.nupkg.sha512",
+    "C:\\Users\\barisu\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.5.1\\system.identitymodel.tokens.jwt.7.5.1.nupkg.sha512",
+    "C:\\Users\\barisu\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\barisu\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512",
+    "C:\\Users\\barisu\\.nuget\\packages\\vaultsharp\\1.13.0.1\\vaultsharp.1.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
