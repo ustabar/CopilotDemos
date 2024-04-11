@@ -15,7 +15,7 @@ public class JwtGeneratorV2
     public JwtGeneratorV2()
     {
         // Authenticate
-        IAuthMethodInfo authMethod = new TokenAuthMethodInfo(vaultToken: "hvs.rL9m7w3JTVPnvzTYA6pnNfra");
+        IAuthMethodInfo authMethod = new TokenAuthMethodInfo(vaultToken: "    ");
         // Initialize Vault client
         VaultClientSettings vaultClientSettings = new VaultClientSettings("http://host.docker.internal:8200", authMethod);
         vaultClient = new VaultClient(vaultClientSettings);
