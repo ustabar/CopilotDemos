@@ -12,17 +12,24 @@
     - copies the array into clipboard.
 */
 function copyAddressCurrentTab() {
-    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-        let addresses = tabs.map(tab => tab.url);
-        navigator.clipboard.writeText(addresses.join('\n'));
-    });
+  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+      let addresses = tabs.map(tab => tab.url);
+      navigator.clipboard.writeText(addresses.join('\n'));
+  });
 }
 
 function copyAddressesInTabs(tabs) {
-  let addresses = tabs.map(tab => tab.url);
-    navigator.clipboard.writeText(addresses.join('\n')).then(() => {
-        console.log('Addresses copied');
+  // let addresses = tabs.map(tab => tab.url);
+  // navigator.clipboard.writeText(addresses.join('\n')).then(() => {
+      // console.log('Addresses copied');
+  // });
+
+  chrome.tabs.query({}, function(tabs) {
+    let allTabsInfo = tabs.map(tab => `${tab.title}\n${tab.url}`).join('\n\n');
+    navigator.clipboard.writeText(allTabsInfo).then(function() {
+        alert('All tab information copied to clipboard');
     });
+  });
 }
 
 function handleCurrentTabButtonClick() {
@@ -30,29 +37,29 @@ function handleCurrentTabButtonClick() {
 }
 
 function handleAllTabsButtonClick() {
-    chrome.tabs.query({}, copyAddressesInTabs);
+  chrome.tabs.query({}, copyAddressesInTabs);
 }
 
 document.getElementById('currentTab').addEventListener("click", function() {
-    chrome.tabs.query({active: true, currentWindow: true}, copyAddressCurrentTab);
+  chrome.tabs.query({active: true, currentWindow: true}, copyAddressCurrentTab);
 });
 
 document.getElementById('allCurrentTabs').addEventListener("click", function() {
-    chrome.tabs.query({currentWindow: true}, copyAddressesInTabs);    
+  chrome.tabs.query({currentWindow: true}, copyAddressesInTabs);    
 });
 
 document.getElementById('allTabs').addEventListener("click", function() {   
-    chrome.tabs.query({}, copyAddressesInTabs);
+  chrome.tabs.query({}, copyAddressesInTabs);
 });
 
 document.getElementById('copyBtn').addEventListener('click', function() {
-    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-      let activeTab = tabs[0];
-      let url = activeTab.url;
-      let title = activeTab.title;
-      let copyText = title + '\n' + url;
-      navigator.clipboard.writeText(copyText).then(function() {
-        alert(copyText + '\n\nCopied to clipboard');
-      });
+  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+    let activeTab = tabs[0];
+    let url = activeTab.url;
+    let title = activeTab.title;
+    let copyText = title + '\n' + url;
+    navigator.clipboard.writeText(copyText).then(function() {
+      alert(copyText + '\n\nCopied to clipboard');
     });
   });
+});
