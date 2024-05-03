@@ -36,3 +36,4 @@ C:\Codes\CoPilotApp\Demos\OpenAIChallenges\Day02-Dall-e\DallESampleApp\bin\Debug
 C:\Codes\CoPilotApp\Demos\OpenAIChallenges\Day02-Dall-e\DallESampleApp\bin\Debug\net8.0\OpenAI_API.dll
 C:\Codes\CoPilotApp\Demos\OpenAIChallenges\Day02-Dall-e\DallESampleApp\bin\Debug\net8.0\System.ClientModel.dll
 C:\Codes\CoPilotApp\Demos\OpenAIChallenges\Day02-Dall-e\DallESampleApp\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Codes\CoPilotApp\Demos\OpenAIChallenges\Day02-Dall-e\DallESampleApp\obj\Debug\net8.0\DallESampleApp.sourcelink.json

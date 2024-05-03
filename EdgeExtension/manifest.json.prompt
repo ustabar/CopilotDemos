@@ -1,0 +1,3 @@
+Manifest for Chrome extension that copies the addresses in each tab into clipboard.
+manifest_version: 3
+Permissions for the extension are: storage, tabs, browsingData

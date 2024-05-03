@@ -14,3 +14,11 @@ gif çok yavaş hareket ediyor.
 
 -
 is it possible to create iphone ring from an MP3 file in python
+
+-
+cmd CLI:
+
+gh copilot suggest "use ffmpeg to convert the first 2 seconds of arnold.mp4 into an animated gif"
+
+--> ffmpeg -ss 00:00:00 -i arnold.mp4 -t 00:00:02 -vf "fps=10,scale=320:-1:flags=lanczos" output.gif
+--> .\ffmpeg.exe -ss 00:00:43 -i test.mp4 -t 00:00:51 -vf "fps=10,scale=320:-1:flags=lanczos" output-2.gif

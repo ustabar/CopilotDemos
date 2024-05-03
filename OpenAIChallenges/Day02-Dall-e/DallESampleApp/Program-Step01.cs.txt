@@ -1,0 +1,115 @@
+/*
+    seçili kod içerisinde birden fazla kez imaj üretimi yapmak istiyorum. 
+    imaj üretmek için open ai servisi kullanıyorum. 
+    ancak çok tekrar var ve üreteceğim imajlara ait dosya isimleri filename alanında, 
+    ilgili prompt ise prompt değişkeninde saklı. 
+    bu bilgileri bir collection da tutup collection ın herbir üyesi için 
+    imaj üretme metodunu çağıracak şekilde tekrar düzenleme yapabilir misin?
+*/
+
+using Microsoft.Extensions.Configuration;
+using System.Net.Http.Headers;
+using System.Text;
+using System.Text.Json;
+using System.Text.Json.Nodes;
+using Azure.AI.OpenAI;
+using Azure;
+class Program
+{
+    static async Task Main(string[] args)
+    {
+        const string folderName = "C:\\Codes\\CoPilotApp\\Demos\\OpenAIChallenges\\Day02-Dall-e\\DallESampleApp\\DownloadedImages\\";
+        const string aoaiKey = "c5c31b1c1aaa4919ba701fbcec03f2f8";
+        const string aoaiURL = "https://barutaidemo.openai.azure.com/";
+        const string model = "dalledemo";
+        const string imgSize = "1024x1024";
+        string fileName = Guid.NewGuid().ToString() + ".jpg";        
+
+        var prompt = new StringBuilder();
+        /*
+        prompt.Append("A cartoon character with spiky blue hair and ");
+        prompt.Append("emerald green eyes, wearing a traditional ");
+        prompt.Append("cricket uniform consisting of a white shirt,");
+        prompt.Append("trousers, and a red cricket cap. "); 
+        prompt.Append("This character is striking a cricket ball ");
+        prompt.Append("with a willow bat in the middle of a vast, ");
+        prompt.Append("well-maintained football field. The field is ");
+        prompt.Append("vibrant green and has white line markings, ");
+        prompt.Append("with two goal posts at each end. ");
+        prompt.Append("The sky above is a cheerful cerulean with ");
+        prompt.Append("a few fluffy cumulus clouds scattered about.");
+        */
+        
+        /* Yazılım Geliştirme */ 
+        fileName = "SoftwareDevelopment.jpg";
+        prompt.Append("Bir yazılım mühendisinin bilgisayar ekranında karmaşık kod satırları ile dolu bir geliştirme ortamını gösteren dijital illüstrasyon.");
+        
+        /* Sistem Analizi ve Tasarımı */
+        fileName = "SystemAnalysis.jpg";
+        prompt = new StringBuilder();
+        prompt.Append("Bir sistem analisti, büyük bir monitörde iş akışı diyagramları ve sistem mimarisi planlarını inceleyen bir ofis ortamında çalışıyor.");
+        
+        /* Ağ ve Güvenlik */
+        fileName = "NetworkSecurity.jpg";
+        prompt = new StringBuilder();
+        prompt.Append("Bir ağ mühendisinin, güvenlik duvarları ve ağ topolojileri içeren bir ağ izleme merkezinde çalıştığını gösteren bir sahne.");
+        
+        /* Veri Analizi ve Büyük Veri */
+        fileName = "DataAnalysis.jpg";
+        prompt = new StringBuilder();
+        prompt.Append("Bir veri bilimcisinin, renkli veri görselleştirmeleri ve büyük veri setleri ile dolu çoklu ekranlar önünde düşünceli bir şekilde çalıştığı bir resim.");
+        
+        /* Robotik ve Otomasyon */ 
+        fileName = "RoboticsAutomation.jpg";
+        prompt = new StringBuilder();
+        prompt.Append("Bir robotik mühendisinin, gelişmiş robot kolları ve otomasyon panelleri ile dolu bir laboratuvarda çalıştığını gösteren bir görüntü.");
+        
+        /* Donanım Mühendisliği */
+        fileName = "HardwareEngineering.jpg";
+        prompt = new StringBuilder();
+        prompt.Append("Bir donanım mühendisinin, mikroişlemciler, devre kartları ve elektronik bileşenler ile dolu bir çalışma masasında montaj yaptığı bir sahne.");
+        
+        /* Yapay Zeka ve Makine Öğrenimi */
+        fileName = "AIandML.jpg";
+        prompt = new StringBuilder();
+        prompt.Append("Yapay zeka algoritmaları geliştiren bir mühendisin, ");
+        prompt.Append("yapay zeka konseptlerini simgeleyen ikonlar ve ");
+        prompt.Append("formüller ile çevrili olduğu bir çalışma alanı.");
+
+        /* Yazılım Testi ve Kalite Güvencesi */ 
+        fileName = "SoftwareTesting.jpg";
+        prompt = new StringBuilder();
+        prompt.Append("Bir kalite güvence mühendisinin, hata raporları ve test sonuçları ile dolu ekranlar arasında geçiş yaptığı bir test laboratuvarı ortamı.");
+
+        var imageGenerationOptions = new ImageGenerationOptions
+        {
+            Prompt = prompt.ToString(),
+            DeploymentName = model,
+            Size = new ImageSize(imgSize),
+            ImageCount = 1
+        };
+
+        try 
+        {
+            OpenAIClient client = new OpenAIClient(
+                new Uri(aoaiURL),
+                new AzureKeyCredential(aoaiKey));
+
+                        var response = await client.GetImageGenerationsAsync(imageGenerationOptions);
+            string res = response.Value.Data[0].Url.AbsoluteUri;
+
+            using (var downloadClient = new HttpClient())
+            {
+                var imageBytes = await downloadClient.GetByteArrayAsync(res);
+                File.WriteAllBytes($"{folderName}{fileName}", imageBytes);
+            }
+
+            Console.WriteLine($"Download completed. {fileName} has been created. \n\n Press any key to exit.");
+        } 
+        catch (Exception ex) 
+        {
+            Console.WriteLine($"Error creating image: {ex.Message}");        
+        } 
+        Console.ReadKey();
+    }
+}

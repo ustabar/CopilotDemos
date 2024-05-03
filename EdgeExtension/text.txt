@@ -1,0 +1,2 @@
+How I used GitHub Copilot to build a browser extension
+https://github.blog/2023-05-12-how-i-used-github-copilot-to-build-a-browser-extension/

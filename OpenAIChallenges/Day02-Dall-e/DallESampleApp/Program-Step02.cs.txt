@@ -1,0 +1,95 @@
+/*
+    can you refactor the selected code according to celan architecture principles 
+    such as KISS, DRY, etc.
+*/
+
+using Microsoft.Extensions.Configuration;
+using System.Net.Http.Headers;
+using System.Text;
+using System.Text.Json;
+using System.Text.Json.Nodes;
+using Azure.AI.OpenAI;
+using Azure;
+using System.Collections.Generic;
+class Program
+{
+    static async Task Main(string[] args)
+    {
+        const string folderName = "C:\\Codes\\CoPilotApp\\Demos\\OpenAIChallenges\\Day02-Dall-e\\DallESampleApp\\DownloadedImages\\";
+        const string aoaiKey = "c5c31b1c1aaa4919ba701fbcec03f2f8";
+        const string aoaiURL = "https://barutaidemo.openai.azure.com/";
+        const string model = "dalledemo";
+        const string imgSize = "1024x1024";     
+
+        var imagePrompts = new List<Tuple<string, string>>
+        {
+            // Yazılım Geliştirme            
+            Tuple.Create("SoftwareDevelopment.jpg", "Bir yazılım mühendisinin bilgisayar ekranında karmaşık kod satırları ile dolu bir geliştirme ortamını gösteren dijital illüstrasyon."),
+            // Sistem Analizi ve Tasarımı
+            Tuple.Create("SystemAnalysis.jpg", "Bir sistem analisti, büyük bir monitörde iş akışı diyagramları ve sistem mimarisi planlarını inceleyen bir ofis ortamında çalışıyor."),
+            // Ağ ve Güvenlik
+            Tuple.Create("NetworkSecurity.jpg", "Bir ağ mühendisinin, güvenlik duvarları ve ağ topolojileri içeren bir ağ izleme merkezinde çalıştığını gösteren bir sahne."),
+            // Veri Analizi ve Büyük Veri
+            Tuple.Create("DataAnalysis.jpg", "Bir veri bilimcisinin, renkli veri görselleştirmeleri ve büyük veri setleri ile dolu çoklu ekranlar önünde düşünceli bir şekilde çalıştığı bir resim."),
+            // Robotik ve Otomasyon
+            Tuple.Create("RoboticsAutomation.jpg", "Bir robotik mühendisinin, gelişmiş robot kolları ve otomasyon panelleri ile dolu bir laboratuvarda çalıştığını gösteren bir görüntü."),
+            // Donanım Mühendisliği
+            Tuple.Create("HardwareEngineering.jpg", "Bir donanım mühendisinin, mikroişlemciler, devre kartları ve elektronik bileşenler ile dolu bir çalışma masasında montaj yaptığı bir sahne."),
+            // Yapay Zeka ve Makine Öğrenimi
+            Tuple.Create("AIandML.jpg", "Yapay zeka algoritmaları geliştiren bir mühendisin, yapay zeka konseptlerini simgeleyen ikonlar ve formüller ile çevrili olduğu bir çalışma alanı."),
+            // Yazılım Testi ve Kalite Güvencesi
+            Tuple.Create("SoftwareTesting.jpg", "Bir kalite güvence mühendisinin, hata raporları ve test sonuçları ile dolu ekranlar arasında geçiş yaptığı bir test laboratuvarı ortamı.")
+        };
+        /*
+        prompt.Append("A cartoon character with spiky blue hair and ");
+        prompt.Append("emerald green eyes, wearing a traditional ");
+        prompt.Append("cricket uniform consisting of a white shirt,");
+        prompt.Append("trousers, and a red cricket cap. "); 
+        prompt.Append("This character is striking a cricket ball ");
+        prompt.Append("with a willow bat in the middle of a vast, ");
+        prompt.Append("well-maintained football field. The field is ");
+        prompt.Append("vibrant green and has white line markings, ");
+        prompt.Append("with two goal posts at each end. ");
+        prompt.Append("The sky above is a cheerful cerulean with ");
+        prompt.Append("a few fluffy cumulus clouds scattered about.");
+        */
+        OpenAIClient client = new OpenAIClient(
+            new Uri(aoaiURL),
+            new AzureKeyCredential(aoaiKey));        
+
+foreach (var imagePrompt in imagePrompts)
+        {
+            string fileName = imagePrompt.Item1;
+            string prompt = imagePrompt.Item2;
+
+            var imageGenerationOptions = new ImageGenerationOptions
+            {
+                Prompt = prompt,
+                DeploymentName = model,
+                Size = new ImageSize(imgSize),
+                ImageCount = 1
+            };
+
+            try 
+            {
+                var response = await client.GetImageGenerationsAsync(imageGenerationOptions);
+                string res = response.Value.Data[0].Url.AbsoluteUri;
+
+                using (var downloadClient = new HttpClient())
+                {
+                    var imageBytes = await downloadClient.GetByteArrayAsync(res);
+                    File.WriteAllBytes($"{folderName}{fileName}", imageBytes);
+                }
+
+                Console.WriteLine($"Download completed. {fileName} has been created.");
+            } 
+            catch (Exception ex) 
+            {
+                Console.WriteLine($"Error creating image: {ex.Message}");        
+            } 
+        }
+
+        Console.WriteLine("\n\n Press any key to exit.");
+        Console.ReadKey();
+    }
+}
