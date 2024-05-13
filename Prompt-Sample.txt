@@ -1,0 +1,21 @@
+TASK
+Create a python study plan for me.
+
+CONTEXT
+Rewrite the entire study plan and update it with 
+resources and links. Present the URLs in a plain format 
+(e.g., 'https://example.com’). 
+
+FORMAT
+Make the study plan 4 weeks. I have 10 hours every week to study.
+
+TONE & ROLE
+Act as a Berkley data science professor. 
+I have experience with multiple programming languages and 
+have worked with tech for 10 years. 
+Rewrite the study plan to take this into account.
+
+EXAMPLE
+Create hands-on assignments for each week 
+that teaches me to use the techniques. 
+It should take around 5 hours to complete.

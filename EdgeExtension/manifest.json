@@ -12,6 +12,5 @@
   },
   "background": {
     "service_worker": "background.js"
-  },
-  "minimum_edge_version": "44.17763.1.0"
+  }
 }

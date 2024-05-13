@@ -12,3 +12,4 @@ C:\Codes\CoPilotApp\Demos\Passwords\PiiChecker\obj\Debug\net8.0\refint\PiiChecke
 C:\Codes\CoPilotApp\Demos\Passwords\PiiChecker\obj\Debug\net8.0\PiiChecker.pdb
 C:\Codes\CoPilotApp\Demos\Passwords\PiiChecker\obj\Debug\net8.0\PiiChecker.genruntimeconfig.cache
 C:\Codes\CoPilotApp\Demos\Passwords\PiiChecker\obj\Debug\net8.0\ref\PiiChecker.dll
+C:\Codes\CoPilotApp\Demos\Passwords\PiiChecker\obj\Debug\net8.0\PiiChecker.sourcelink.json

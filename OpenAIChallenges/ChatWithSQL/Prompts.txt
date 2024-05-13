@@ -1,0 +1,7 @@
+// bir microsoft sql tablosundaki kolon isimlerini çeken sql komutuna ihtiyacim var
+
+SELECT c.name AS column_name
+FROM sys.columns c
+JOIN sys.tables t ON c.object_id = t.object_id
+WHERE t.name = 'Address'
+ORDER BY c.column_id

@@ -2,7 +2,8 @@ hangi dilleri kullanarak tetris oyunu geliştirebilirim?
 
 javascript kullanarak bir tetris oyunu geliştirebilir misin?
 
-Blokların hareket etmesi, satırların temizlenmesi, oyunun bitirilmesi ve puanlama gibi özellikler ekle
+Blokların hareket etmesi, satırların temizlenmesi, 
+oyunun bitirilmesi ve puanlama gibi özellikler ekle
 
 blokların döndürülmesi ve kullanıcı girişi ile kontrol ekle
 

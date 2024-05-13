@@ -1,0 +1,40 @@
+Tutorial - How to Code a Multi-Page .NET Core MVC Web App
+https://www.youtube.com/watch?v=fyuhAyv9xbQ
+
+Chat with your SQL server:
+
+- Show me all of the products
+- Show me all of the customers
+- Show me all of the customers who live in Germany
+- Retrieve all of the customers who live in Germany
+- Retrieve all of the orders for the customer name David 
+- Show the total price for all of the orders for the customer name David 
+- Show the total price for all of the orders for the customer name David. Round to the nearest dollar and format as currency
+
+
+SELECT c.name AS column_name
+FROM sys.columns c
+JOIN sys.tables t ON c.object_id = t.object_id
+WHERE t.name = 'Address'
+ORDER BY c.column_id
+
+SELECT COLUMN_NAME 
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'YourTableName'
+ORDER BY ORDINAL_POSITION
+
+SELECT FORMAT(SUM(SOH.TotalDue), 'C0') AS TotalPrice 
+FROM SalesLT.SalesOrderHeader AS SOH JOIN SalesLT.Customer AS C 
+ON SOH.CustomerID = C.CustomerID WHERE C.FirstName = 'David'
+
+
+
+AddressID
+AddressLine1
+AddressLine2
+City
+StateProvince
+CountryRegion
+PostalCode
+rowguid
+ModifiedDate

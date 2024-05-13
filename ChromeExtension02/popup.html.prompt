@@ -1,6 +1,8 @@
 <!--
-    HTML for Chrome extention that copies the addresses in each tab into clipboard.
-    Connect to javascript file called popup.js and CSS file called style.css
+    HTML for Chrome extention that copies the addresses 
+    in each tab into clipboard.
+    Connect to javascript file called popup.js and 
+    CSS file called style.css
 
     Will render the following buttons with id's:
 

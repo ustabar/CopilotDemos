@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DallESampleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+648ad62f86044106def7d3ff23bffb1563726eb1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c741b05879b16a98f41958f95f90de89995a776")]
 [assembly: System.Reflection.AssemblyProductAttribute("DallESampleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DallESampleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -35,7 +35,12 @@ public CustomerData CreateSampleCustomerData()
                 new Transaction { Date = "2022-01-02", Amount = 2000, Description = "Deposit" },
                 new Transaction { Date = "2022-01-03", Amount = -500, Description = "Bill Payment" },
                 new Transaction { Date = "2022-01-04", Amount = 100, Description = "Transfer" },
-                new Transaction { Date = "2022-03-04", Amount = 100, Description = "Transfer" }
+                new Transaction { Date = "2022-01-05", Amount = -200, Description = "ATM Withdrawal" },
+                new Transaction { Date = "2022-01-06", Amount = 500, Description = "Deposit" },
+                new Transaction { Date = "2022-01-07", Amount = -100, Description = "Bill Payment" },
+                new Transaction { Date = "2022-01-08", Amount = 200, Description = "Transfer" },
+                new Transaction { Date = "2022-01-09", Amount = -300, Description = "ATM Withdrawal" },
+                new Transaction { Date = "2022-01-10", Amount = 1000, Description = "Deposit" }
             }
         }
     };

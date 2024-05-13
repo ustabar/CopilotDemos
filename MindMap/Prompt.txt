@@ -1,0 +1,7 @@
+Create a mind map of software ecosystem. 
+List topics as central ideas, main branches, 
+and sub-branches. 
+Create this mindmap in markdown format.
+
+Copy and paste the output into 
+https://markmap.js.org/repl

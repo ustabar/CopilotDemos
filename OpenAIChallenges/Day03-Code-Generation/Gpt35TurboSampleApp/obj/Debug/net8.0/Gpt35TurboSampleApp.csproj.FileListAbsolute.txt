@@ -26,3 +26,4 @@ C:\Codes\CoPilotApp\Demos\OpenAIChallenges\Day03-Code-Generation\Gpt35TurboSampl
 C:\Codes\CoPilotApp\Demos\OpenAIChallenges\Day03-Code-Generation\Gpt35TurboSampleApp\bin\Debug\net8.0\Azure.Core.dll
 C:\Codes\CoPilotApp\Demos\OpenAIChallenges\Day03-Code-Generation\Gpt35TurboSampleApp\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Codes\CoPilotApp\Demos\OpenAIChallenges\Day03-Code-Generation\Gpt35TurboSampleApp\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Codes\CoPilotApp\Demos\OpenAIChallenges\Day03-Code-Generation\Gpt35TurboSampleApp\obj\Debug\net8.0\Gpt35TurboSampleApp.sourcelink.json

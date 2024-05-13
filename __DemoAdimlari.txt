@@ -1,5 +1,9 @@
 GitHub Copilot demo steps
 
+https://i0.wp.com/bdtechtalks.com/wp-content/uploads/2021/07/GitHub-Copilot-microsoft-openai.jpg?ssl=1
+https://medium.com/analytics-vidhya/github-copilot-all-you-need-to-know-8e6fc1d5ccc
+
+
 - Github version info
 	Individual
 	Business
@@ -15,6 +19,7 @@ GitHub Copilot demo steps
 	Inline chat
 	Chat window
 	Terminal help
+	Github Copilot CLI (gh copilot suggest / explain)
 	
 	Code completion
 	Code review
@@ -23,6 +28,9 @@ GitHub Copilot demo steps
 	Code formatting
 	Library extension suggestions
 	Learning path creation for a new subject
+	@workspace /new --> generates a new project
+	@terminal /explain #terminallasterror
+	Chat view in the terminal
 
 - Demo apps
 	C++ code formatting and library expantion
@@ -54,3 +62,14 @@ GitHub Copilot demo steps
 		C:\Codes\CoPilotApp\Demos\Youtube
 	@workspace what version of net does this project use
 		C:\inetpub\wwwroot\BuggyBits\AllProducts.aspx
+
+- ChatGPT vs GitHub Copilot (GHCop)
+	Context movement
+		We have to give more info to inform GPT
+		What we are doing
+		What our project is
+		What our environment etc
+	Rate limitation
+		There is no rate limit in GHCop
+	Data can be used in GPT but GHCop doesn't use for training purposes
+	

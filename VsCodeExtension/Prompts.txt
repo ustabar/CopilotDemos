@@ -3,9 +3,11 @@
 
 - Proje yapısı nasıl olmalı?
 
-- Yazacağım extension, editor de açık olan bir doyadaki bilgiyi 
+- Yazacağım extension, editor de açık olan bir dosyadaki bilgiyi 
   github copilot chat ekranına aktaracak şekilde çalışsın istiyorum
 
 - Bu kodu extension olarak nereye koymalıyım?
 
-- Yazdığım vs code extension ı visual studio code marketplace de nasıl yayınlarım?
+- oluşturduğum projeyi derledikten sonra çıktı olarak
+  hangi dosyaları nereye koymam ve sonrasında herkesin 
+  bu extension ı kurması için neler yapmam gerekiyor?

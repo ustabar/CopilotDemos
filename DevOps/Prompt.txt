@@ -1,5 +1,25 @@
-python dilinde geliştirdiğim uygulamayı azure devops pipeline 
+python dilinde geliştirdiğim uygulamayı 
+azure devops pipeline 
 ile üretime almak istiyorum.
 Bunu yaparken pylint ile kod kontrolü de yapmam gerek. 
 Ayrıca pylint kontrolü ne olursa olsun pipeline 
 çalışmaya devam etsin istiyorum.
+
+
+
+
+sonarqube kullanarak bir projede code review yapmak istiyorum. 
+bunun için docker üzerinde çalışan bir sonarqube kullanabilir miyim?
+
+pekala, bir projeyi sonarqube ile taramak istesem ne yapmalıyım?
+
+yazmış olduğum bir asp.net core projesi için sonar-project.properties 
+dosyasını nasıl düzenlemeliyim? bana bloklanmayacak şekilde 
+public code bilgisini de ver.
+
+tarama için docker üzerinde çalışan bir sonarqube uygulaması kullanıyorum. 
+bu uygulamayı nasıl çalıştırabilirim?
+
+sonarqube docker üzerinde başarılı çalışıyor 
+peki kodumu taraması için bunu nasıl tetiklerim
+

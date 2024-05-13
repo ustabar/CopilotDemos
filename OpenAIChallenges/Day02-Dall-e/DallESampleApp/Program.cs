@@ -67,16 +67,16 @@ class Program
             // Yazılım Testi ve Kalite Güvencesi
             Tuple.Create("SoftwareTesting.jpg", "Erkek ve kadin kalite güvence mühendislerinin, hata raporları ve test sonuçları ile dolu ekranlar arasında geçiş yaptığı bir test laboratuvarı ortamı."),
             // Sistem Analizi ve Tasarımı
-            Tuple.Create("SystemAnalysis.jpg", "Erkek ve kadın sistem analistlerinin, büyük bir monitörde iş akışı diyagramları ve sistem mimarisi planlarını inceleyen bir ofis ortamında çalışıyorken göster.")
-            */
-            /*
+            Tuple.Create("SystemAnalysis.jpg", "Erkek ve kadın sistem analistlerinin, büyük bir monitörde iş akışı diyagramları ve sistem mimarisi planlarını inceleyen bir ofis ortamında çalışıyorken göster."),
             // Computer Engineering
-            Tuple.Create("ComputerEngineer.jpg", "Kontrol ve bilgisayar mühendisliğinin temel unsurlarını vurgulayan bir görsel tasarla. Görselde iki kısım olsun. Bir tanesinde bir öğrenci üniversitede ders çalışırken, diğerinde ise bir mühendis bir yazılım üzerinde çalışırken göster.")
-            */
-
+            Tuple.Create("ComputerEngineer.jpg", "Kontrol ve bilgisayar mühendisliğinin temel unsurlarını vurgulayan bir görsel tasarla. Görselde iki kısım olsun. Bir tanesinde bir öğrenci üniversitede ders çalışırken, diğerinde ise bir mühendis bir yazılım üzerinde çalışırken göster."),
             // Github Copilot
-            // Tuple.Create("Copilot.jpg", "Github Copilot'un, bir yazılım geliştiriciye kod yazarken yardımcı olduğu bir sahneyi tasvir et. Görselde bir yazılım geliştirici, bilgisayar ekranında kod yazarken, Copilot'un kod önerilerini gözden geçirirken göster.")
-            Tuple.Create("Copilot.jpg", "kod yazarken zorlanan bir programcıyı resimle")
+            Tuple.Create("Copilot.jpg", "Github Copilot'un, bir yazılım geliştiriciye kod yazarken yardımcı olduğu bir sahneyi tasvir et. Görselde bir yazılım geliştirici, bilgisayar ekranında kod yazarken, Copilot'un kod önerilerini gözden geçirirken göster.")
+            */
+            // Tuple.Create("Industry.jpg", "proje yönetiminde çalışan endüstri mühendisinin zorlanmasını resimle.")
+            // Tuple.Create("Galatasaray.jpg", "Galatasarayın sembolü aslandır. İhtişamlı bir aslan içeren galatasaray imajı oluştur.")
+            // Tuple.Create("Galatasaray-2.jpg", "Galatasarayın efsane futbolcuları Metin Oktay ve George Hagi dir. İkisini de içeren ve tribünlerin coştuğu bir imaj oluştur.")
+            Tuple.Create("Istanbul.jpg", "İstanbul un fethi ile ilgili Haliç ten gemilerin geçirildiği sahneyi de içeren bir imaj oluştur.")
         };
     }
 

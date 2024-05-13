@@ -1,0 +1,22 @@
+kullanıcının python komutu ile uygulamayı çalıştırırken 
+girdiği dosya lokasyonunu kullanarak, dosya içerisinde satır satır tutulan
+url adreslerini tek bir chrome browser da açacak bir python kodu 
+oluşturmak istiyorum. Program, dosya adresini giriş olarak alacak,
+adresleri tek bir browser da açtıktan sonra konsola işim bitti mesajı
+basacak şekilde çalışmalı. Eğer dosya bulunamadı ise bunu bir hata 
+olarak değerlendirmeli, browser da adres başarılı açılamadı ise bunu 
+da hata olarak değerlendirmeli ve gerekli kod parçaları için bu tür 
+durumları yönetebilmeli. Ayrıca bu kodu nasıl çalıştıracağımı da vermelisin. 
+
+sorumda anlamadığın yer neresi?
+
+dosyayı kullanıcıya sormanı istemiyorum.
+kullanıcı python komutu ile ilgili py dosyasını çalıştırırken 
+dosya yolunu parametre olarak vermeli
+
+kodu çalıştırdım ancak üretilen md dosyasında imajlar base64 olarak tutuluyor. 
+ben imajların ayrı bir dizinde tutulmasını ve md dosyası içerisinde 
+o dizindeki imaj dosyalarına referans verilmesini istiyorum. 
+sana vereceğim adresteki dosyayı tarayıp base64 olarak 
+tutulan imajları dizine atan ve imajları referans olarak çeviren programı 
+yazmanı istiyorum
