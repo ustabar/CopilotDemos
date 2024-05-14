@@ -5,8 +5,8 @@ import json
 
 client = AzureOpenAI(
     api_version="2024-02-01",
-    azure_endpoint="https://barutaidemo.openai.azure.com/",
-    api_key="c5c31b1c1aaa4919ba701fbcec03f2f8"
+    azure_endpoint="https://***.openai.azure.com/",
+    api_key="****"
 )
 
 result = client.images.generate(
