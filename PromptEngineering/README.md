@@ -9,7 +9,6 @@ Bu klasör aşağıdaki yapıda organize edilmiştir:
 ### 📄 Ana Dosyalar
 - **`mimari.txt`** - 16 farklı prompt mimarisi ve .NET Core bileşenleri hakkında özet
 - **`Notes.txt`** - Çeşitli araştırma, satış, geliştirme ve tasarım prompt örnekleri
-- **`__README.md`** - Mevcut demo dokümantasyonu
 
 ### 📂 Prompts Klasörü
 - **`Frameworks.txt`** - 12+ detaylı prompt çerçevesi (A-P-E, A-P-P-R-O-A-C-H, R-T-F, T-A-G vb.)
@@ -27,8 +26,6 @@ Bu demo aşağıdaki becerileri geliştirmeyi hedefler:
 - ✅ Çeşitli prompt framework'lerini kullanma
 - ✅ GitHub Copilot ile verimli çalışma
 - ✅ Kod kalitesini artırma
-- ✅ Türkçe prompt yazma becerileri
-
 ## 🚀 Demo Nasıl Çalıştırılır
 
 ### 1️⃣ Prompt Framework'lerini Keşfetmek
@@ -121,7 +118,7 @@ Sen bir C# geliştiricisisin. Aşağıdaki gereksinimlere göre bir Entity Frame
 ### ✅ Framework Seçimi
 
 | Durum | Önerilen Framework | Neden |
-|-------|-------------------|---------|
+|-------|-------------------|--------|
 | Basit görevler | A-P-E | Hızlı ve etkili |
 | Rol tabanlı | R-T-F | Net rol tanımı |
 | Kompleks projeler | T-R-A-C-E | Detaylı bağlam |
@@ -227,4 +224,23 @@ Bu demo sürekli geliştirilmektedir. Yeni örnekler, framework'ler ve en iyi uy
 
 **💡 Önemli Not:** Bu demo, GitHub Copilot ile daha etkili çalışmak için prompt engineering tekniklerini öğretmeyi amaçlamaktadır. Her dosyayı sırayla inceleyerek pratik yapın ve kendi prompt tarzınızı geliştirin.
 
-**🎯 Hedef:** Prompt engineering konusunda uzmanlaşarak, GitHub Copilot ile %300 daha verimli kod geliştirmek!
+**🎯 Hedef:** Prompt engineering konusunda uzmanlaşarak, GitHub Copilot ile daha verimli kod geliştirmek!
+
+**Yardım:**  
+- [Copilot Belgeleri](https://docs.github.com/en/copilot)
+- [GitHub Destek](https://support.github.com/)
+
+---
+
+## 🤝 Katkı ve Kaynaklar
+
+**Katkıda Bulunmak İçin:**
+- Fork'layın, değişiklik yapın, PR gönderin
+
+**Ek Kaynaklar:**
+- [Copilot Prompt Engineering Guide](https://docs.github.com/en/copilot)
+- [Awesome Copilot Prompts](https://github.com/ztjhz/awesome-copilot-prompts)
+
+---
+
+> 💬 **Hemen deneyin!** Her bölümdeki örnek prompt'ları Copilot'a yazın ve sonuçları gözlemleyin. Öğrenme yolculuğunuzda başarılar! 🚀
