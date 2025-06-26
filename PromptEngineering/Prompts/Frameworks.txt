@@ -1,0 +1,417 @@
+PROMPTING FRAMEWORKS
+
+A–P–E
+
+    - Action: Yapılacak işi veya faaliyeti tanımlayın.
+    - Purpose: Amacı veya hedefi açıklayın.
+    - Expectation: Beklenen sonucu belirtin.
+
+    Örneğin:
+
+    Action      : Bir blog yazısı oluşturmak istiyorum.
+    Purpose     : Amacım, okuyuculara yapay zekâ teknolojilerinin günlük yaşamdaki etkilerini anlatmak.
+    Expectation : Sonuç olarak, bilgilendirici ve ilgi çekici bir blog yazısı elde etmek istiyorum.
+
+A-P-P-R-O-A-C-H
+
+    - Audience (Hedef Kitle): Yanıtın kim için hazırlandığını veya hangi rolde hareket edilmesi gerektiğini belirtin.
+    - Purpose (Amaç): İsteğinizin veya sorunuzun amacını açıklayın.
+    - Priorities (Öncelikler): Yanıtta dikkate alınması gereken öncelikleri veya önemli noktaları belirtin.
+    - Results (Sonuçlar): Beklenen çıktıyı veya hedeflenen sonucu tanımlayın.
+    - Openness (Açıklık): Alternatif seçeneklere veya farklı yaklaşımlara açık olun.
+    - Assumptions (Varsayımlar): Varsayılan koşulları veya göz önünde bulundurulması gereken noktaları belirtin.
+    - Concerns (Endişeler): Potansiyel sorunları, riskleri veya dikkat edilmesi gereken noktaları açıklayın.
+    - Help (Yardım): Ek kaynaklar, referanslar veya ek yardım isteyin.
+
+    Örneğin:
+
+    Audience   : Orta seviye deneyime sahip bir yazılım geliştiricisi rolünü üstlenin.
+    Purpose    : Bir web geliştirme projesi için doğru programlama dilini seçme konusunda öneriler sunun.
+    Priorities : Kullanım kolaylığı, topluluk desteği, ölçeklenebilirlik ve kaynakların mevcudiyeti gibi faktörleri göz önünde bulundurun.
+    Results    : Belirtilen proje gereksinimlerine göre en uygun programlama dilini önerin.
+    Openness   : Alternatif seçenekleri değerlendirmeye ve artı-eksilerini tartışmaya açık olun.
+    Assumptions: Projenin dinamik bir web uygulaması ve veritabanı entegrasyonu gerektirdiğini varsayın.
+    Concerns   : Potansiyel performans sorunları, öğrenme eğrisi ve mevcut altyapı ile uyumluluğu dikkate alın.
+    Help       : Gerekirse daha fazla araştırma için ek kaynaklar veya referanslar sunun.
+
+B-A-B
+
+    B-A-B, bir prompt oluşturma çerçevesidir ve "Before-After-Bridge" (Önce-Sonra-Köprü) kelimelerinin baş harflerinden oluşur.
+
+    - Before (Önce): Mevcut durumu veya problemi açıklayın.
+    - After (Sonra): İstenen sonucu veya hedeflenen durumu belirtin.
+    - Bridge (Köprü): Mevcut durumdan istenen sonuca nasıl ulaşılacağını açıklayın.
+
+    Örneğin:
+
+    Before     : Şu anda blog yazılarım çok az okunuyor.
+    After      : Blog yazılarımın daha fazla kişiye ulaşmasını ve okunmasını istiyorum.
+    Bridge     : Lütfen bana blog yazılarımın okunma oranını artırmak için uygulayabileceğim etkili stratejiler önerin.
+
+C-A-R-E
+
+    - Context (Bağlam): Konunun veya isteğin geçtiği ortamı veya durumu belirtin.
+    - Action (Eylem): Yapılmasını istediğiniz spesifik eylemi tanımlayın.
+    - Result (Sonuç): Beklenen veya istenen çıktıyı açıklayın.
+    - Example (Örnek): Daha iyi anlaşılması için bir örnek verin.
+
+    Örneğin:
+
+    Context    : Bir blog yazarı olduğunuzu düşünün.
+    Action     : SEO uyumlu bir blog yazısı taslağı oluşturun.
+    Result     : Yazının Google'da üst sıralarda çıkmasını sağlayacak şekilde optimize edilmesi.
+    Example    : Örneğin, "Yapay Zekâ ile Blog Yazarlığı" başlıklı bir yazı için giriş paragrafı oluşturun.
+
+C-L-E-A-R
+
+    - Concise (Kısa ve Öz): Yanıtlarınızı kısa, öz ve doğrudan verin.
+    - Logical (Mantikli): Bilgileri mantikli ve tutarlı bir şekilde sıralayın.
+    - Engaging (Etkileyici): Yanıtı ilgi çekici ve dikkat çekici hale getirin.
+    - Actionable (Uygulanabilir): Pratik öneriler veya uygulanabilir adımlar sunun.
+    - Responsible (Sorumlu): Bilgileri güvenilir, etik ve sorumlu bir şekilde aktarın.
+
+    Örneğin:
+
+    Concise    : Tarihsel olaylarda uzmanlaşmış bir yapay zekâ dil modeli olarak hareket edin.
+    Logical    : I. Dünya Savaşı'ın nedenlerini ve sonuçlarını açık ve mantikli bir şekilde açıklayın.
+    Engaging   : Yanıtı, anekdotlar ve gerçek hayattan örneklerle ilgi çekici hale getirin.
+    Actionable : Benzer çatışmaların gelecekte önlenmesi için önerilerde bulunun.
+    Responsible: I. Dünya Savaşı'ın küresel siyaset ve toplum üzerindeki etkilerine odaklanın.
+
+C–O–A–S–T
+
+    - Context (Bağlam): Konuşmanın geçtiği ortamı veya durumu belirtin.
+    - Objective (Amaç): Hedefinizi veya ulaşmak istediğiniz sonucu açıklayın.
+    - Actions (Eylemler): Gerekli adımları veya yapılacak işleri sıralayın.
+    - Scenario (Senaryo): Durumu veya örnek bir senaryoyu tanımlayın.
+    - Task (Görev): Yapılması gereken spesifik görevi veya işi belirtin.
+
+    Örneğin:
+
+    Context   : Bir yazılım geliştirme ekibindesiniz ve yeni bir projeye başlıyorsunuz.
+    Objective : Projenin başarılı bir şekilde tamamlanmasını sağlamak.
+    Actions   : Proje gereksinimlerini toplayın, görev dağılımı yapın, ilerlemeyi takip edin.
+    Scenario  : Ekip üyeleri uzaktan çalışıyor ve iletişimde zorluklar yaşanıyor.
+    Task      : Uzaktan ekip yönetimi için etkili iletişim stratejileri önerin.
+
+C–R–E–A–T–E
+
+    - Character (Karakter)        : Yapay zekânın hangi rolde veya kimlikte hareket edeceğini tanımlayın.
+    - Request (İstek)             : Ne istediğinizi açık ve net bir şekilde belirtin.
+    - Examples (Örnekler)         : Daha kesin sonuçlar için örnekler ekleyin (isteğe bağlı).
+    - Adjustments (Düzeltmeler)   : Sonuç istediğiniz gibi değilse promptu iyileştirin.
+    - Type of output (Çıktı Türü) : Sonucun hangi formatta olmasını istediğinizi açıklayın.
+    - Extras (Ekstralar)          : Ek talimatlar veya özel gereksinimler ekleyin.
+
+    Örneğin:
+
+    Character  : Deneyimli bir Next.js geliştiricisi olarak hareket edin.
+    Request    : Bir blog ana sayfası için SEO uyumlu, hızlı yüklenen bir Next.js bileşeni oluşturun.
+    Examples   : Daha önce yazılmış bir blog ana sayfası kodu örneği ekleyin.
+    Adjustments: Eğer performans düşükse kodu optimize edin ve Lighthouse puanını artırın.
+    Type of output: Kodun tamamını bir dosya olarak sunun.
+    Extras     : Açıklama satırları ekleyin ve en iyi Next.js uygulamalarını takip edin.
+
+C–R–E–O
+
+    - Context (Bağlam): İsteğinizin geçtiği ortamı veya durumu belirtin.
+    - Request (Talep): Spesifik olarak ne istediğinizi veya sormak istediğiniz soruyu ifade edin.
+    - Explanation (Açıklama): Arka plan bilgisi veya önemli detayları açıklayın.
+    - Outcome (Sonuç): Beklediğiniz yanıtı veya ulaşmak istediğiniz sonucu tanımlayın.
+
+    Örneğin:
+
+    Context    : Bir Next.js projesinde API performansını artırmak istiyorum.
+    Request    : API route'larının daha hızlı yanıt vermesi için optimizasyon önerileri sunar mısınız?
+    Explanation: Şu anda getirme işlemleri yavaş, veri kaynağı bir PostgreSQL veritabanı.
+    Outcome    : Kullanıcı deneyimini iyileştirmek ve sunucu maliyetlerini azaltmak için uygulanabilir öneriler almak istiyorum.
+
+C–R–I–S–P–E
+
+    - Context (Bağlam): Konunun geçtiği ortamı veya mevcut durumu belirtin.
+    - Request (İstek): Ne istediğinizi veya hangi konuda yardım talep ettiğinizi açıkça ifade edin.
+    - Input (Girdi): Gerekli bilgileri veya başlangıç verilerini sağlayın.
+    - Steps (Adımlar): Hedefe ulaşmak için izlenecek adımları sıralayın.
+    - Purpose (Amaç): Yapılacak işlemin veya isteğin amacını açıklayın.
+    - Example (Örnek): Daha iyi anlaşılması için bir örnek ekleyin.
+
+    Örneğin:
+
+    Context  : Bir Next.js projesinde API performansını artırmak istiyorum.
+    Request  : API route'larının daha hızlı yanıt vermesi için optimizasyon önerileri sunar mısınız?
+    Input    : Şu anda getirme işlemleri yavaş, veri kaynağı bir PostgreSQL veritabanı.
+    Steps    : Sorgu optimizasyonu, önbellekleme ve ISR kullanımı gibi adımları belirtin.
+    Purpose  : Kullanıcı deneyimini iyileştirmek ve sunucu maliyetlerini azaltmak.
+    Example  : Örneğin, getServerSideProps yerine ISR ile veri çekme ve Redis önbellekleme entegrasyonu önerin.
+
+G-R-A-D-E
+
+    - Goal (Hedef): Ulaşmak istediğiniz amacı veya sonucu belirtin.
+    - Request (Talep): Spesifik olarak ne istediğinizi açıklayın.
+    - Action (Eylem): Yapılması gereken adımları veya eylemleri sıralayın.
+    - Detail (Detay): Konuyla ilgili önemli ayrıntıları veya gereksinimleri ekleyin.
+    - Examples (Örnekler): Daha iyi anlaşılması için bir veya birden fazla örnek verin.
+
+    Örneğin:
+
+    Goal      : Kişisel verimliligimi artırmak istiyorum.
+    Request   : Günlük yapılacaklar listesi hazırlamam için bana yardımcı olur musun?
+    Action    : Sabah, öğle ve akşam için ayrı ayrı görevler öner.
+    Detail    : İş ve kişisel yaşam dengesi gözetilsin, mola zamanları da dahil edilsin.
+    Examples  : Örneğin, sabah için "30 dakika egzersiz", öğle için "e-postaları kontrol et", akşam için "kitap oku" gibi görevler ekle.
+
+P-A-C-T
+
+    - Purpose (Amaç): Ne yapmak istediğinizi veya hedefinizi belirtin.
+    - Action (Eylem): Yapılmasını istediğiniz spesifik eylemi veya adımı tanımlayın.
+    - Context (Bağlam): Konunun geçtiği ortamı veya mevcut durumu açıklayın.
+    - Tailoring (Özelleştirme): İsteğinize uygun olarak özelleştirilmesi gereken noktaları veya özel gereksinimleri belirtin.
+
+    Örneğin:
+
+    Purpose    : Kişisel finans yönetimimi geliştirmek istiyorum.
+    Action     : Bana detaylı ve yaratıcı bir para yönetimi planı ve etkili teknikler hazırlar mısınız?
+    Context    : Yıllık maaşım yaklaşık 40.000$, evli değilim ve çocuğum yok, ancak parayı nereye harcadığımı bilmiyorum.
+    Tailoring  : Harcamaları izleme, bütçe limitleri oluşturma ve bütçeye sadık kalma tekniklerini dikkate alın.
+
+P-E-C-R-A
+
+    - Purpose (Amaç): Amacınızı veya isteğinizi belirtin.
+    - Expectation (Beklenti): Beklediğiniz sonucu veya çıktıyı açıklayın.
+    - Context (Bağlam): Konunun geçtiği ortamı veya mevcut durumu tanımlayın.
+    - Request (Talep): Spesifik olarak ne istediğinizi belirtin.
+    - Action (Eylem): Atılması gereken adımları veya yapılacak eylemleri sıralayın.
+
+    Örneğin:
+
+    Purpose     : Kişisel finans yönetimimi geliştirmek istiyorum.
+    Expectation : Harcamalarımı daha iyi takip edebilmek ve birikim yapabilmek.
+    Context     : Aylık sabit bir gelirim var fakat ay sonunda para biriktiremiyorum.
+    Request     : Bana etkili bir bütçe planı hazırlamani istiyorum.
+    Action      : Lütfen adım adım uygulanabilir bir bütçe planı öner.
+
+R–A–C–E
+
+    - Role (Rol): ChatGPT'nin hangi rolde hareket etmesi gerektiğini belirtin.
+    - Action (Eylem): Yapılması gereken eylemi detaylandırın.
+    - Context (Bağlam): Durumun veya isteğin geçtiği ortamı açıklayın.
+    - Expectation (Beklenti): Beklenen sonucu veya çıktıyı tanımlayın.
+
+    Örneğin:
+
+    Role        : Bir kariyer danışmanı olarak hareket edin.
+    Action      : Yeni mezunlar için etkili bir özgeçmiş hazırlama sürecini açıklayın.
+    Context     : Mezunlar iş başvurularında öne çıkmak istiyor.
+    Expectation : Sonuç olarak, öne çıkmalarını sağlayacak bir özgeçmiş örneği sunun.
+
+R-I-S-E
+
+    - Role (Rol): Hangi rolde hareket edileceğini belirtin.
+    - Input (Girdi): Yapılacak işi veya gerekli bilgileri tanımlayın.
+    - Steps (Adımlar): İstenen çıktıyı elde etmek için atılması gereken adımları belirtin.
+    - Expectation (Beklenti): Beklenen sonuç veya çıktıyı açıklayın.
+
+    Örneğin:
+
+    Role        : Bir kariyer danışmanı olarak hareket edin.
+    Input       : Yeni mezunlar için etkili bir özgeçmiş hazırlama sürecini açıklayın.
+    Steps       : Özgeçmiş hazırlama sürecini adım adım detaylandırın ve her adımda dikkat edilmesi gereken noktaları belirtin.
+    Expectation : Sonuç olarak, yeni mezunların iş başvurularında öne çıkmasını sağlayacak bir özgeçmiş örneği sunun.
+
+R-O-S-E-S
+
+    - Role (Rol): Hangi rolde hareket edileceğini belirtin.
+    - Objective (Amaç): Ulaşılmak istenen amacı veya hedefi açıklayın.
+    - Scenario (Senaryo): Durumu veya bağlamı tanımlayın.
+    - Expected Solution (Beklenen Çözüm): Beklenen çözümü veya sonucu belirtin.
+    - Steps (Adımlar): Çözüme ulaşmak için atılması gereken adımları sıralayın.
+
+    Örneğin:
+
+    Role      : Bir sosyal medya uzmanı olarak hareket edin.
+    Objective : Bir markanın Instagram etkileşimini artırmak.
+    Scenario  : Marka, son zamanlarda gönderilerinde düşük etkileşim alıyor.
+    Expected Solution : Etkileşimi artıracak stratejiler önerin.
+    Steps     : İçerik planı oluşturun, hashtag kullanımını optimize edin, takipçiyle etkileşimi artıracak yöntemler önerin.
+
+R-T-F
+
+    - Role (Rol): Hangi rolde hareket edileceğini belirtin.
+    - Task (Görev): Yapılacak işi veya görevi tanımlayın.
+    - Format (Format): Sonucun hangi formatta sunulmasını istediğinizi belirtin.
+
+    Örneğin:
+
+    Role        : Profesyonel bir seyahat planlayıcısı olarak hareket edin.
+    Task        : Avrupa'ya yapılacak bir gezi için detaylı bir yapılacaklar listesi hazırlayın.
+    Format      : Sonucu madde işaretli bir liste olarak sunun.
+
+S-A-I-D
+
+    - Situation (Durum): Mevcut durumu veya problemi açıklayın.
+    - Action (Eylem): Yapılması gereken spesifik eylemi belirtin.
+    - Impact (Etkisi): Bu eylemin veya problemin olası etkilerini veya sonuçlarını açıklayın.
+    - Detail (Detay): Konuyla ilgili önemli ayrıntıları veya ek bilgileri ekleyin.
+
+    Örneğin:
+
+    Situation : Bir blog yazımda birçok SEO sorunu var.
+    Action    : Blog yazısının iyi bir SEO optimizasyonu ile yeniden yazılması gerekiyor.
+    Impact    : Eğer SEO sorunları yeni makalede devam ederse, web sitesi Google'da sıralanmayacak ve birçok potansiyel ziyaretçi kaybedeceğiz.
+    Detail    : Yeniden yazılması gereken makale burada. [Makale].
+
+S-C-E-T
+
+    - Situation (Durum): Mevcut durumu veya başlangıç noktasını açıklayın.
+    - Complication (Karmaşıklık): Karşılaşılan zorluk, engel veya problemi belirtin.
+    - Expectation (Beklenti): Beklenen sonucu veya hedeflenen çıktıyı tanımlayın.
+    - Task (Görev): Bu sonuca ulaşmak için yapılması gereken görevi veya eylemi açıklayın.
+
+    Örneğin:
+
+    Situation   : Bir e-ticaret sitesinde satışlar son iki aydır düşüş gösteriyor.
+    Complication: Rekabetin artması ve reklam bütçesinin azalması nedeniyle müşteri kazanmak zorlaştı.
+    Expectation : Satışların tekrar artmasını ve müşteri sayısının yükselmesini istiyoruz.
+    Task        : Lütfen düşük bütçeyle etkili dijital pazarlama stratejileri önerin.
+
+S-T-A-R
+
+    - Situation (Durum): Mevcut durumu veya başlangıç noktasını açıklayın.
+    - Task (Görev): Yapılması gereken işi veya görevi belirtin.
+    - Action (Eylem): Görevi yerine getirmek için atılan adımları veya yapılan eylemleri açıklayın.
+    - Result (Sonuç): Eylemlerin sonucunda elde edilen çıktıyı veya başarıyı belirtin.
+
+    Örneğin:
+
+    Situation : Bir müşteri hizmetleri temsilcisi olarak çalışıyorsunuz ve bir müşteri siparişinin geciktiğini bildiriyor.
+    Task      : Müşterinin sorununu çözmek.
+    Action    : Siparişin durumunu kontrol ettiniz, müşteriye bilgi verdiniz ve hızlı teslimat için gerekli adımları attınız.
+    Result    : Müşteri memnun kaldı ve olumlu geri bildirim verdi.
+
+S–T–E–E–R
+
+    - Statement (Açıklama): Konu hakkında bir açıklama yapın.
+    - Type (Tür): İstediğiniz bilgi türünü veya kategorisini belirtin.
+    - Examples (Örnekler): Bağlam için bir veya iki örnek verin.
+    - Explanation (Açıklama): Derinlemesine bir açıklama veya gerekçe isteyin.
+    - Results (Sonuçlar): Olası sonuçları veya etkileri analiz edin.
+
+    Örneğin:
+
+    Statement : Web uygulamalarında performans optimizasyonu önemlidir.
+    Type      : Next.js projelerinde performans artırıcı teknikler hakkında bilgi istiyorum.
+    Examples  : Örneğin, resim optimizasyonu ve kod bölme (code splitting) gibi yöntemler.
+    Explanation: Bu tekniklerin uygulandığında nasıl çalıştığını ve neden etkili olduklarını açıklar mısınız?
+    Results   : Bu optimizasyonların kullanıcı deneyimine ve SEO'ya etkileri neler olur?
+
+T-A-G
+
+    - Task (Görev): Yapılacak işi veya görevi tanımlayın.
+    - Action (Eylem): İstenen spesifik eylemi veya adımı belirtin.
+    - Goal (Hedef): Ulaşılmak istenen sonucu veya amacı açıklayın.
+
+    Örneğin:
+
+    Task       : Bahçemde çalışmaya başlamak istiyorum.
+    Action     : Bahçemi etkili bir şekilde hazırlamak ve geliştirmek için adım adım bir rehber sunar mısınız?
+    Goal       : Amaç, bahçemi daha iyi hale getirmek ve bitkilerimin sağlıklı bir ortamda büyüme şansını artırmak.
+
+T-R-A-C-E
+
+    - Task (Görev): Yapılacak işi veya görevi belirtin.
+    - Request (Talep): Spesifik olarak ne istediğinizi açıklayın.
+    - Actions (Eylemler): Görev için atılması gereken adımları veya yapılacak eylemleri sıralayın.
+    - Context (Bağlam): Konunun geçtiği ortamı veya mevcut durumu tanımlayın.
+    - Example (Örnek): Daha iyi anlaşılması için bir örnek verin.
+
+    Örneğin:
+
+    Task       : Yeni başlayanlar için spor salonunda uygulanacak bir antrenman planı hazırlamak istiyorum.
+    Request    : Lütfen başlangıç seviyesindeki bir spor salonu antrenman planında bulunması gereken temel bileşenleri ana hatlarıyla belirtin.
+    Actions    : Bir hafta boyunca uygulanacak, gün gün egzersiz, set, tekrar ve dinlenme aralarını içeren detaylı bir program oluşturun.
+    Context    : Daha önce hiç spor salonunda egzersiz yapmadım.
+    Example    : Örneğin, bacak günü için örnek bir antrenman planı gösterin.
+
+T-R-E-F
+
+    - Task (Görev): Yapılacak işi veya görevi belirtin.
+    - Requirement (Gereksinim): Görev için gerekli olan gereksinimleri veya ön koşulları açıklayın.
+    - Expectation (Beklenti): Beklenen sonucu veya hedeflenen çıktıyı tanımlayın.
+    - Format (Format): Sonucun hangi formatta sunulmasını istediğinizi belirtin.
+
+    Örneğin:
+
+    Task         : Bir iş başvurusu için özgeçmiş hazırlayın.
+    Requirement  : Özgeçmişte eğitim, iş deneyimi ve beceriler yer almalı.
+    Expectation  : Özgeçmişin profesyonel ve etkileyici olması bekleniyor.
+    Format       : PDF formatında, sade ve okunak lı bir şekilde sunulsun.
+
+P-P-F-O:
+
+    Prompt: Understand the user's request and gather necessary information.
+    Plan  : Create a step-by-step plan to address the request.
+    Format: Organize the response according to specified formatting rules.
+    Output: Generate the final response based on the plan and format.
+
+    * Prompt
+
+    You need to write a Python function that takes a list of integers and returns a new list with each integer squared.
+
+    * Plan
+
+    Define the function square_list that accepts a list of integers as an argument.
+    Use a list comprehension to square each integer in the input list.
+    Return the new list with squared integers.
+
+    * Format
+
+    def square_list(int_list):
+        """
+        This function takes a list of integers and returns a new list with each integer squared.
+        """
+        return [x ** 2 for x in int_list]
+
+    * Output
+
+    The function square_list is defined to take a list of integers 
+    and return a new list with each integer squared using a list comprehension. 
+    This approach is minimal and efficient.
+
+    <purpose>
+
+    You are an expert full-stack NextJS developer specializing in building scalable, 
+    performant, and maintainable web applications. 
+    Your expertise includes server-side rendering (SSR), 
+    static site generation (SSG), incremental static regeneration (ISR), 
+    and API route optimization. 
+    You prioritize clean, idiomatic code and adhere to Next.js best practices, 
+    ensuring seamless integration between frontend and backend components. 
+    Your goal is to deliver solutions that are not only functional 
+    but also optimized for performance, SEO, and user experience.
+
+    </purpose>
+
+    <planning_rules>
+
+    Create a 4-step plan for each task (e.g., setup, implementation, testing, deployment).
+    Display the current step clearly.
+    Ask for clarification on ambiguous requirements.
+    Optimize for NextJS best practices (e.g., SSR, ISR, API routes).
+
+    </planning_rules>
+
+    <format_rules>
+
+    Use code blocks for components, API routes, and configuration.
+    Split long code into logical sections (e.g., frontend, backend, config).
+    Create artifacts for file-level tasks (e.g., page.tsx, api/route.ts).
+    Keep responses brief but complete.
+
+    </format_rules>
+
+    <o>
+
+    Create responses following these rules. 
+    Focus on scalable, performant solutions while maintaining a concise, helpful style.
+
+    </o>
