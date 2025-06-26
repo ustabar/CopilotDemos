@@ -1,0 +1,90 @@
+GitHub Copilot'a verebileceğiniz bazı güçlü ve detaylı prompt örnekleri:
+
+1. Veritabanı İşlemleri için Test
+Prompt:
+	"Bir e-ticaret uygulaması için, ProductService sınıfının birim testini oluştur. 
+	Bu sınıf, ürünleri veritabanına ekler, günceller ve siler. 
+	Test senaryolarında, veri ekleme işlemi başarılı olduğunda veritabanının 
+	doğru şekilde güncellendigini, 
+	başarısız olduğunda ise hata fırlatıldığını kontrol et. 
+	Mock veritabanı kullan ve sınır değer testlerine odaklan."
+	
+2. API Testleri için
+Prompt:
+	"UserController sınıfının birim testini oluştur. 
+	Bu sınıf, kullanıcıları getiren, ekleyen ve güncelleyen API'yi yönetiyor. 
+	Test senaryolarında, 200 OK ve 404 Not Found gibi durum kodlarını kontrol et. 
+	Ayrıca, hatalı giriş durumunda 400 Bad Request döndüğünden emin ol. 
+	Mock servisler kullanarak gerçek veritabanı erişimini izole et."
+	
+3. Exception Handling Testleri
+Prompt:
+	"OrderProcessor sınıfının birim testini oluştur. 
+	Bu sınıf, verilen siparişlerin işlenmesini sağlar ve çeşitli istisnalar fırlatabilir 
+	(OrderNotFoundException, PaymentFailedException). 
+	Test senaryolarında bu istisnaların doğru şartlarda fırlatıldığını doğrula. 
+	Tüm olası hata durumlarını test et ve mock nesneler kullanarak bağımlılıkları izole et."
+	
+Calculator sınıfının birim testini oluştur. 
+    Bu sınıf, çeşitli matematiksel işlemleri sağlar ve çeşitli hatalar döndürebilir 
+    (örneğin, sıfıra bölme hatası, negatif sayının karekökü hatası). 
+    Test senaryolarında bu hataların doğru şartlarda döndürüldüğünü doğrula. 
+    Tüm olası hata durumlarını test et ve mock nesneler kullanarak bağımlılıkları izole et.
+
+4. Performans ve Zamanlama Testleri
+Prompt:
+	"NotificationService sınıfı için birim testi oluştur. 
+	Bu servis, kullanıcıya e-posta ve SMS gönderiyor. 
+	Testlerde, belirli bir süre içinde bildirim gönderiminin tamamlandığını kontrol et 
+	(örneğin, 100ms içinde e-posta gönderimi başarılı olmalı). 
+	Aynı zamanda aşırı yüklenme durumunda sistemin nasıl tepki verdiğini test eden senaryolar da oluştur."
+	
+5. Sınır Durumları için Testler
+Prompt:
+	"PaymentService sınıfı için birim test oluştur. 
+	Bu servis, kredi kartı ödemelerini işliyor. 
+	Test senaryolarında, geçerli ve geçersiz kart numaraları ile yapılan işlemlerin doğruluğunu kontrol et. 
+	Ayrıca, son kullanma tarihi geçmiş kartlar ve limit aşımı durumlarında doğru hataların fırlatıldığını test et."
+
+6. Asenkron Fonksiyonlar için Testler
+Prompt:
+	"DataFetcher sınıfının asenkron çalışan metodlarının birim testini oluştur. 
+	Bu metotlar, dış API'lerden veri çekiyor. 
+	Test senaryolarında, API'lerden veri çekerken timeout ve başarısız bağlantı durumlarını simüle et. 
+	Gecikme (latency) ve başarısızlık senaryolarına karşı sistemin doğru şekilde hata yönetimi yaptığından emin ol."
+
+---
+PROMPTS FOR RESEARCH
+
+Identify the top 20 companies in [insert industry] by revenue
+What are the top trends in [insert industry] for 2024?
+Find me the best-reviewed software for [insert task]
+Summarize the annual financial statement of [insert company]
+Summarize this research paper and give me a list of the key insights. [insert research paper text]
+
+---
+PROMPTS FOR SALES
+
+Generate 10 ways to generate leads for [product description]
+Create a personalized sales email for potential customers, include [topic, brand name, promo offers, etc.]
+Write sales landing page description for [product description]
+Generate 5 personas I should include in my outreach for [x]
+Generate a script to use when cold-calling [insert persona]
+
+---
+PROMPTS FOR DEVELOPERS
+
+Help me find mistakes in my code: [insert your code]
+Explain what this snippet of a code does: [insert code snippet]
+What is the correct syntax for a [statement of function] in [programming language]?
+How do I fix the following [programming language] code which [explain the functionality]? [insert code support]
+
+---
+PROMPTS FOR DESIGNER
+
+What are some interactions to consider when designing a [insert app or website description]
+Create a user persona for [describe product]
+Generate 10 questions for a user interview regarding [topic]
+Generate 10 questions for [insert app and persona description]
+Create UX design requirements for [describe feature]
+Create UI/UX design requirements for [describe feature]

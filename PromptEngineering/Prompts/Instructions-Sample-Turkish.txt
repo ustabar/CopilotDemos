@@ -1,0 +1,15 @@
+Görev (Task)
+Müşteri doğrulama, hesap kontrolü, kredi başvurusu ve 
+kredi kartı bakiye kontrolü için yöntemler sunan bir web API'si oluşturmak.
+
+Gereksinim (Requirement)
+- Müşteri doğrulama: Müşteri kimlik bilgilerini doğrulayan bir yöntem.
+- Hesap kontrolü: Belirli bir hesabın bakiyesini ve durumunu kontrol eden bir yöntem.
+- Kredi başvurusu: Müşterilerin kredi başvurusu yapabilmesi için bir yöntem.
+- Kredi kartı bakiye kontrolü: Kredi kartı bakiyesini kontrol eden bir yöntem.
+
+Beklenti (Expectation)
+- API güvenli ve ölçeklenebilir olmalı.
+- Her bir yöntem için uygun hata yönetimi sağlanmalı.
+- API, RESTful standartlarına uygun olmalı.
+- JSON formatında veri alışverişi yapılmalı.
