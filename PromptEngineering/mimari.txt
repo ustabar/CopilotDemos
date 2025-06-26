@@ -1,0 +1,37 @@
+Kullanıcı ve Web
+Kullanıcı (KULLANICI): Bu, uygulamanın son kullanıcılarını temsil eder.
+Web (WEB): Kullanıcıların uygulamaya eriştiği web tarayıcılarını temsil eder.
+Frontend
+Frontend: Kullanıcı arayüzünü oluşturur. Bu katman genellikle HTML, CSS ve JavaScript ile geliştirilir. .NET Core ile birlikte Blazor gibi teknolojiler de kullanılabilir.
+Docker: Frontend bileşeninin Docker konteynerlerinde çalıştırılabileceğini gösterir. Bu, uygulamanın taşınabilirliğini ve ölçeklenebilirliğini artırır.
+API Gateway
+API Gateway: Tüm API isteklerini yöneten ve yönlendiren bir katmandır. Bu katman, farklı mikro hizmetlere gelen istekleri yönetir ve güvenlik, yük dengeleme gibi işlevleri sağlar.
+.NET API: API Gateway'e bağlı olan ve .NET Core ile geliştirilmiş API'leri temsil eder.
+Backend
+Backend: İş mantığının ve veri işlemlerinin gerçekleştirildiği katmandır. .NET Core kullanılarak geliştirilir ve genellikle RESTful API'ler sunar.
+Microsoft Azure: Uygulamanın bulut hizmetleri ile entegrasyonunu gösterir. Azure, veri depolama, kimlik doğrulama, mesajlaşma gibi çeşitli hizmetler sunar.
+.NET Core Bileşenleri
+ASP.NET Core: Web uygulamaları ve API'ler geliştirmek için kullanılan bir framework'tür. Yüksek performanslı, çapraz platform ve açık kaynaklıdır1.
+Dependency Injection (DI): ASP.NET Core, bağımlılık enjeksiyonu ile hizmetlerin yönetimini kolaylaştırır2.
+Middleware: HTTP isteklerini işlemek için kullanılan ara katman yazılımlardır. Örneğin, kimlik doğrulama, hata yönetimi gibi işlevler middleware ile sağlanır2.
+Bu bileşenler, modern ve ölçeklenebilir web uygulamaları geliştirmek için güçlü bir altyapı sağlar. Başka bir konuda yardımcı olabilir miyim?
+
+
+
+
+R-T-F: Role, Task, Format
+T-A-G: Task, Action, Goal
+R-I-S-E: Role, Job, Steps/Expectations
+B-A-B: Before, After
+C-A-R-E: Content, Action, Result, Example
+T-R-A-C-E: Task, Request, Actions, Context, Example
+P-A-C-T: Purpose, Action, Context, Tailoring
+S-A-I-D: Situation, Action, Impact, Detail
+C-L-E-A-R: Concise, Logical, Engaging, Actionable, Responsible
+S-T-A-R: Situation, Task, Action, Result
+A-P-P-R-O-A-C-H: Audience, Purpose, Priorities, Results, Openness, Assumptions, Concerns, Help
+T-R-E-F: Requirement, Expectation, Format
+S-C-E-T: Complication, Expectation, Task
+P-E-C-R-A: Purpose, Expectation, Task, Action
+G-R-A-D-E: Goal, Request, Action, Detail, Examples
+R-O-S-E-S: Role, Objective, Scenario, Expected Solution, Steps

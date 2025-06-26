@@ -1,0 +1,76 @@
+#file:PrompFW.txt içerisinde çeşitli istem mimarilerinden bahsediliyor. 
+Kaç tane istem mimarisi anlatılmakta? 
+Kısa açıklamaları ile verebilir misin?
+
+buna göre #file:Prompt-TR.txt içerisindeki istem 
+hangi mimariye uygun düzenlenmiş olabilir?
+
+
+GOOD SAMPLE:
+
+-- i need to create a good prompt for github copilot using TREF prompting framework. 
+TREF stands for Task, Requirement, Expectation and Format. 
+My aim is to ask for a help from github copilot to create a 
+webapi that exposes methods for a banking application for customer validation, 
+account check, credit application and credit card balance check. 
+Can you provide me a prompt sample using TREF structure
+
+---
+
+Task: Create a web API for a banking application that includes methods 
+for customer validation, account check, credit application, and credit card balance check.
+
+Requirement: The web API should be built using a RESTful approach, 
+ensuring that each method is appropriately mapped to HTTP verbs. 
+The API should include endpoints for:
+
+Customer validation (POST /validate-customer)
+Account check (GET /check-account)
+Credit application (POST /apply-credit)
+Credit card balance check (GET /check-credit-card-balance)
+Expectation: The API should be developed in C# using ASP.NET Core. 
+Each endpoint should validate input data and return appropriate 
+HTTP status codes and messages. Additionally, ensure that error 
+handling and logging are properly implemented.
+
+Format: Provide a clear and concise example of how each endpoint is defined, 
+including route definitions, request and response models, and any necessary 
+validation attributes. Example code should include comments explaining 
+the purpose of each section and how it contributes to the overall functionality.
+
+-- Do the same using TRACE framework
+
+---
+
+Task: Develop a web API for a banking application that includes 
+methods for customer validation, account check, credit application, 
+and credit card balance check.
+
+Request: Generate the necessary code to create endpoints for the following functionalities:
+
+Customer validation
+Account check
+Credit application
+Credit card balance check
+Actions:
+
+Define the API routes and methods using ASP.NET Core.
+Implement request and response models for each endpoint.
+Include validation for input data.
+Ensure proper error handling and logging.
+Add necessary comments to explain the code.
+Context: This API will be part of a larger banking application and 
+must adhere to RESTful principles. Each endpoint should map to appropriate 
+HTTP verbs and return meaningful HTTP status codes and messages. 
+The application is built in C# using ASP.NET Core, and it should follow 
+best practices for security and performance.
+
+Example:
+Provide a sample implementation for the "customer validation" endpoint, including:
+
+Route definition (e.g., POST /api/customers/validate)
+Request model (e.g., CustomerValidationRequest with properties like CustomerId, Name, etc.)
+Response model (e.g., CustomerValidationResponse with properties like IsValid, 
+ValidationMessage, etc.)
+Controller method with validation logic
+Error handling and logging within the method
