@@ -1,4 +1,4 @@
-# 🚀 GitHub Copilot Prompt Engineering Demo
+# 🚀 GitHub Copilot Prompt Engineering Demo-info
 
 Bu demo klasörü, GitHub Copilot ile etkili prompt yazma tekniklerini, çeşitli prompt çerçevelerini (framework) ve en iyi uygulamaları kapsamlı bir şekilde göstermektedir.
 
