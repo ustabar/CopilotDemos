@@ -339,9 +339,9 @@ We welcome contributions from the community! This project is continuously evolvi
 ### Contribution Guidelines
 
 1. **Fork the Repository**
-   ```bash
-   git fork https://github.com/ustabar/CopilotDemos.git
-   ```
+   - Visit https://github.com/ustabar/CopilotDemos
+   - Click the "Fork" button in the top-right corner
+   - Or use GitHub CLI: `gh repo fork ustabar/CopilotDemos`
 
 2. **Create a Feature Branch**
    ```bash
